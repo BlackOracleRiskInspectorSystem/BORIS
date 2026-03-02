@@ -38,23 +38,32 @@ When code risk aligns with holder concentration aligns with governance capture a
 ---
 
 ## Architecture
-┌─────────────────────────────────────────────────────────────────┐
-│                    CROSS-LAYER CORRELATION                      │
-│        Code ↔ Onchain ↔ Holders ↔ Market ↔ Social ↔ Deriv      │
-└────┬──────────┬──────────┬──────────┬──────────┬───────────────┘
-     ▼          ▼          ▼          ▼          ▼
-┌─────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌──────────────┐
-│ STATIC  │ │ONCHAIN │ │ MARKET │ │ SOCIAL │ │ GOVERNANCE & │
-│  CODE   │ │ STRUCT │ │+DERIVS │ │ INTEL  │ │  PRIVILEGE   │
-└────┬────┘ └───┬────┘ └───┬────┘ └───┬────┘ └──────┬───────┘
-     └──────────┴──────────┴──────────┴──────────────┘
-                              │
-                    ┌─────────▼──────────┐
-                    │   TEMPORAL ENGINE  │
-                    │ Role Δ · Upgrade Δ │
-                    │ Holder Drift · OI Δ│
-                    └────────────────────┘
 
+<table>
+<tr>
+<td colspan="6" align="center">
+
+**CROSS-LAYER CORRELATION**
+`Code ↔ Onchain ↔ Holders ↔ Market ↔ Social ↔ Deriv`
+
+</td>
+</tr>
+<tr>
+<td align="center">📦<br/><b>STATIC</b><br/><sub>Code Analysis</sub></td>
+<td align="center">🔎<br/><b>ONCHAIN</b><br/><sub>Struct + ABI</sub></td>
+<td align="center">⚠️<br/><b>MARKET</b><br/><sub>Spot + Derivs</sub></td>
+<td align="center">🛰<br/><b>SOCIAL</b><br/><sub>Intel</sub></td>
+<td align="center">🔐<br/><b>GOVERNANCE</b><br/><sub>Privilege</sub></td>
+<td align="center">🏗<br/><b>STRUCT</b><br/><sub>Profiling</sub></td>
+</tr>
+<tr>
+<td colspan="6" align="center">
+
+**TEMPORAL ENGINE** — `Role Δ · Upgrade Δ · Holder Drift · OI Δ`
+
+</td>
+</tr>
+</table>
 
 
 ---
