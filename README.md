@@ -679,16 +679,6 @@ That is a structural fact.
 
 ---
 
-## Docs
-
-- [`docs/architecture.md`](docs/architecture.md) — full system architecture
-- [`docs/signals.md`](docs/signals.md) — signal list and weights
-- [`docs/tiers.md`](docs/tiers.md) — tier breakdown
-- [`examples/sample_report.md`](examples/sample_report.md) — example BLACKBOX report
-- [`examples/sample_market.md`](examples/sample_market.md) — example market scan
-- [`CHANGELOG.md`](CHANGELOG.md) — version history
-
----
 
 ## Links
 
