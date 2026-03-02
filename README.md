@@ -484,18 +484,25 @@ Specialized Stellar ecosystem monitoring.
 ---
 # BORIS — Example Reports
 
-Real outputs from BORIS CLI. Protocol names redacted where applicable.
-All data reflects actual scan results — nothing is fabricated.
+Real outputs from BORIS CLI. Protocol names redacted.
+All data reflects actual scan results — nothing fabricated.
 
 ---
 
 | Module | Example | Key finding |
 |--------|---------|-------------|
-| 🔥 BLACKBOX | [Governance Protocol](examples/full-report/sample-governance-protocol.md) | Flash-loan governance + 48 findings outside audit scope |
-| 🌐 Stellar Radar | [Soroban Scam Scan](examples/soroban-radar/stellar-scam-scan.md) | 52 scams in 358 assets · 2 factory networks · $0 oracle manipulation cost |
-| 💰 Funds Flow | [Pool Analysis](examples/funds-flow/sample-pool-analysis.md) | Wash trading 85/100 · 13 signals · volume inflation confirmed |
-| 📊 Market Engine | [Market Scan](examples/market-scan/sample-market-engine.md) | OI/Depth 26x squeeze setup · GitHub abandoned 444d · smart money divergence |
+| 🔥 BLACKBOX (Full) | [Governance Protocol](full-report/sample-governance-protocol.md) | Flash-loan governance · 48 findings outside audit scope · 4 exploit chains |
+| 🌐 Soroban Radar | [Stellar Scam Scan](soroban-radar/stellar-scam-scan.md) | 52 scams in 358 assets · 2 factory networks · $0 oracle cost |
+| 💰 Funds Flow | [Pool Analysis](funds-flow/sample-pool-analysis.md) | Wash trading 85/100 · 13 signals · volume inflation confirmed |
+| 📊 Market Engine | [Market Scan](market-scan/sample-market-engine.md) | OI/Depth 26x squeeze · GitHub abandoned 444d · smart money divergence |
+| 🐋 Holders | [Holder Distribution](holders/sample-holders-analysis.md) | 59.45% single contract · Top-10 real 88.3% · governance capture threshold |
+| 🛰 Social | [Social Intelligence](social/sample-social-intelligence.md) | 5 impersonators · 1.0% TG engagement · 315K X followers hollow |
 
+---
+
+> All outputs are from BORIS beta 1.3 CLI.
+> Telegram bot produces the same intelligence in structured report format.
+> No fabricated data. No cherry-picked examples. Real scan, real protocol, names redacted.
 ---
 
 > Outputs are from BORIS beta 1.3 CLI.
