@@ -2,7 +2,7 @@
 
 <img src="boris_logo.png" alt="BORIS" width="320"/>
 
-# BORIS
+# BORIS Beta v 1.3
 ### Black Oracle Risk Inspection System
 
 **Threat surface intelligence for Web3 protocols.**
