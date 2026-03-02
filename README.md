@@ -489,12 +489,12 @@ All data reflects actual scan results — nothing is fabricated.
 
 ---
 
-| Module | Example | What it shows |
-|--------|---------|---------------|
-| 🔥 Full Audit (BLACKBOX) | [Governance Protocol](full-report/sample-governance-protocol.md) | Complete multi-layer scan — code, onchain, social, drift, exploit chains |
-| 🌐 Soroban / Stellar Radar | [Stellar Scam Scan](soroban-radar/stellar-scam-scan.md) | Batch scam detection + oracle manipulation surface across 358 assets |
-| 💰 Funds Flow | [Pool Analysis](funds-flow/sample-pool-analysis.md) | Wash trading detection in BSC + ETH liquidity pools |
-| 📊 Market Engine | [Market Scan](market-scan/sample-market-engine.md) | OI squeeze setup, derivatives positioning, GitHub decay signal |
+| Module | Example | Key finding |
+|--------|---------|-------------|
+| 🔥 BLACKBOX | [Governance Protocol](examples/full-report/sample-governance-protocol.md) | Flash-loan governance + 48 findings outside audit scope |
+| 🌐 Stellar Radar | [Soroban Scam Scan](examples/soroban-radar/stellar-scam-scan.md) | 52 scams in 358 assets · 2 factory networks · $0 oracle manipulation cost |
+| 💰 Funds Flow | [Pool Analysis](examples/funds-flow/sample-pool-analysis.md) | Wash trading 85/100 · 13 signals · volume inflation confirmed |
+| 📊 Market Engine | [Market Scan](examples/market-scan/sample-market-engine.md) | OI/Depth 26x squeeze setup · GitHub abandoned 444d · smart money divergence |
 
 ---
 
