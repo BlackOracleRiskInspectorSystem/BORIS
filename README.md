@@ -482,7 +482,24 @@ Specialized Stellar ecosystem monitoring.
 </details>
 
 ---
+# BORIS — Example Reports
 
+Real outputs from BORIS CLI. Protocol names redacted where applicable.
+All data reflects actual scan results — nothing is fabricated.
+
+---
+
+| Module | Example | What it shows |
+|--------|---------|---------------|
+| 🔥 Full Audit (BLACKBOX) | [Governance Protocol](full-report/sample-governance-protocol.md) | Complete multi-layer scan — code, onchain, social, drift, exploit chains |
+| 🌐 Soroban / Stellar Radar | [Stellar Scam Scan](soroban-radar/stellar-scam-scan.md) | Batch scam detection + oracle manipulation surface across 358 assets |
+| 💰 Funds Flow | [Pool Analysis](funds-flow/sample-pool-analysis.md) | Wash trading detection in BSC + ETH liquidity pools |
+| 📊 Market Engine | [Market Scan](market-scan/sample-market-engine.md) | OI squeeze setup, derivatives positioning, GitHub decay signal |
+
+---
+
+> Outputs are from BORIS beta 1.3 CLI.
+> Telegram bot produces the same intelligence in structured report format.
 ## On-Chain Intelligence Modules
 
 | Module | What it does |
