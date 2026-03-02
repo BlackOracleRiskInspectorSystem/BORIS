@@ -540,7 +540,7 @@ All data reflects actual scan results — nothing fabricated.
 
 **Example output:**  
 `🚨 Impersonators: 5 detected`  
-`@dexe_network_official_chats → @dexe_network_official_chat`  
+`@ххххх_network_official_chats → @хххх_network_official_chat`  
 `📨 15 channels (2 official) · 92,749 subscribers · anomalous engagement`
 
 ---
