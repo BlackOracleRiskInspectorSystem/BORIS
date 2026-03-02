@@ -1,6 +1,5 @@
 <div align="center">
-
-<img src="assets/boris_logo.png" alt="BORIS" width="120"/>
+<img src="assets/boris_logo.png" alt="BORIS" width="96"/>
 
 # BORIS
 ### Black Oracle Risk Inspection System
@@ -39,20 +38,22 @@ When code risk aligns with holder concentration aligns with governance capture a
 ---
 
 ## Architecture
-┌─────────────────────────────────────────────────────────────┐
-│                    CROSS-LAYER CORRELATION                   │
-│         Code ↔ Onchain ↔ Holders ↔ Market ↔ Social         │
-└──────────┬──────────┬──────────┬──────────┬─────────────────┘
-│          │          │          │
-┌──────▼──┐ ┌─────▼───┐ ┌───▼─────┐ ┌──▼──────────┐
-│  STATIC │ │ ONCHAIN │ │ MARKET  │ │   SOCIAL    │
-│ ANALYSIS│ │ STRUCT  │ │ + DERIV │ │ INTELLIGENCE│
-└──────┬──┘ └─────┬───┘ └───┬─────┘ └──┬──────────┘
-│          │          │           │
-┌──────▼──────────▼──────────▼───────────▼──────────┐
-│              TEMPORAL ENGINE                       │
-│      Role Δ · Upgrade Δ · Holder Drift · OI Δ    │
-└────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│                    CROSS-LAYER CORRELATION                      │
+│        Code ↔ Onchain ↔ Holders ↔ Market ↔ Social ↔ Deriv      │
+└────┬──────────┬──────────┬──────────┬──────────┬───────────────┘
+     ▼          ▼          ▼          ▼          ▼
+┌─────────┐ ┌────────┐ ┌────────┐ ┌────────┐ ┌──────────────┐
+│ STATIC  │ │ONCHAIN │ │ MARKET │ │ SOCIAL │ │ GOVERNANCE & │
+│  CODE   │ │ STRUCT │ │+DERIVS │ │ INTEL  │ │  PRIVILEGE   │
+└────┬────┘ └───┬────┘ └───┬────┘ └───┬────┘ └──────┬───────┘
+     └──────────┴──────────┴──────────┴──────────────┘
+                              │
+                    ┌─────────▼──────────┐
+                    │   TEMPORAL ENGINE  │
+                    │ Role Δ · Upgrade Δ │
+                    │ Holder Drift · OI Δ│
+                    └────────────────────┘
 
 
 
