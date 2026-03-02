@@ -24,6 +24,13 @@
 
 ---
 
+> ### ⚠️ Active Development
+> This is a live system under continuous development.
+> Documentation reflects the current minimum viable state.
+> Inconsistencies between docs and behaviour are a side effect of velocity, not negligence.
+> **If something is missing — it's being built. If something is wrong — it's being fixed.**
+
+---
 ## What BORIS is not
 ✗  Not a “rug checker”
 ✗  Not a safety score
