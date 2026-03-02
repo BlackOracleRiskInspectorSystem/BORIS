@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="boris_logo.png" alt="BORIS" width="120"/>
+<img src="boris_logo.png" alt="BORIS" width="320"/>
 
 # BORIS
 ### Black Oracle Risk Inspection System
