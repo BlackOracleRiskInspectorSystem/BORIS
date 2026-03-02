@@ -292,33 +292,42 @@ Correlation is where the real signal lives.
 
 ## Tiers
 
-| | 👁️ GUEST | 🟥 RADAR | 📋 RAW | 🔥 BLACKBOX |
-|---|---|---|---|---|
+|  | 👁️ GUEST | 🟥 RADAR | 📋 RAW | 🔥 BLACKBOX |
+|--|:--:|:--:|:--:|:--:|
 | **Price** | Free | $19/mo | $29/mo | $49/mo |
-| **Scans/day** | 3 | 25 | 30 | Unlimited |
-| **Parallel** | 1 | 1 | 1 | 2 + queue 5 |
+| **Scans / day** | 3 | 25 | 30 | Unlimited |
+| **Parallel scans** | 1 | 1 | 1 | 2 + queue 5 |
+| | | | | |
 | **Summary** | ✓ | ✓ | ✓ | ✓ |
 | **Risk categories + severity** | — | ✓ | ✓ | ✓ |
 | **Governance analysis** | — | ✓ | ✓ | ✓ |
 | **Admin control score** | — | ✓ | ✓ | ✓ |
-| **Audit context** | — | ✓ | ✓ | ✓ |
+| **Behavioral score (aggregated)** | — | ✓ | ✓ | ✓ |
+| **Audit context (presence, age)** | — | ✓ | ✓ | ✓ |
+| | | | | |
 | **Full findings + file:line** | — | — | ✓ | ✓ |
 | **Archetype + governance model** | — | — | ✓ | ✓ |
 | **Holders / liquidity / deployments** | — | — | ✓ | ✓ |
+| **CEX listings** | — | — | ✓ | ✓ |
+| **Raw data dump — no verdicts** | — | — | ✓ | ✓ |
+| | | | | |
 | **Exploit paths + attack vectors** | — | — | — | ✓ |
 | **Audit drift (full)** | — | — | — | ✓ |
 | **Deploy trace analysis** | — | — | — | ✓ |
 | **Code fragments + exact location** | — | — | — | ✓ |
 | **Social intelligence** | — | — | — | ✓ |
 | **Funds Flow Intelligence** | — | — | — | ✓ |
-| **Continuous Radar 24/7** | — | — | — | ✓ |
-| **DeFiLlama scanner 24/7** | — | — | — | ✓ |
-| **Real-time alerts** | — | Batched 12–24h | — | Instant |
+| | | | | |
+| **📡 Discovery feed** | — | ✓ | ✓ | ✓ |
+| **📡 Continuous Radar 24/7** | — | ✓ | ✓ | ✓ |
+| **📊 DeFiLlama scanner 24/7** | — | ✓ | ✓ | ✓ |
+| **Alerts** | — | Batched 12–24h | Batched 12–24h | Instant |
+| | | | | |
 | **JSON export** | — | Summary | Full technical | Full |
 | **Beta access** | — | — | — | First |
 
-> RAW tier is for people who read code, not conclusions.  
-> No verdicts. No scores. Raw technical dump.
+> **RAW** — no scores, no verdicts, no interpretations.  
+> Pure technical data for people who read code, not conclusions.
 
 ---
 
