@@ -12,61 +12,121 @@ The signal is in the intersection.
 ---
 
 ## Layer Stack
-┌─────────────────────────────────────────────────────────┐
-│                 INPUT                                    │
-│   GitHub repo · Contract address · Token ticker         │
-│   Explorer URL · owner/repo                             │
-└────────────────────────┬────────────────────────────────┘
-│
-┌──────────────▼──────────────┐
-│      ARCHETYPE ENGINE       │
-│  Classifies protocol type   │
-│  DEX · Stablecoin · DAO     │
-│  Lending · Bridge · etc     │
-│  Normalizes false positives │
-└──────────────┬──────────────┘
-│
-┌────────────────────┼────────────────────┐
-│                    │                    │
-▼                    ▼                    ▼
-┌────────┐         ┌──────────┐         ┌─────────┐
-│ STATIC │         │ ONCHAIN  │         │ MARKET  │
-│  CODE  │         │ STRUCT   │         │ +DERIVS │
-└────┬───┘         └────┬─────┘         └────┬────┘
-│                    │                    │
-▼                    ▼                    ▼
-┌────────┐         ┌──────────┐         ┌─────────┐
-│EXPLOIT │         │  TRUST   │         │ SOCIAL  │
-│ CHAINS │         │  MODEL   │         │  INTEL  │
-└────┬───┘         └────┬─────┘         └────┬────┘
-│                  │                    │
-└──────────────────┼────────────────────┘
-│
-┌─────────────▼─────────────┐
-│   CROSS-LAYER CORRELATION  │
-│                           │
-│  Code ↔ Onchain           │
-│  Holder ↔ Governance      │
-│  Liquidity ↔ Oracle       │
-│  Behavior ↔ Structure     │
-│  Social ↔ Code            │
-└─────────────┬─────────────┘
-│
-┌─────────────▼─────────────┐
-│      TEMPORAL ENGINE      │
-│  Tracks changes over time │
-│  Role Δ · Upgrade Δ       │
-│  Holder Drift · OI Δ      │
-│  Audit Drift              │
-└─────────────┬─────────────┘
-│
-┌─────────────▼─────────────┐
-│          OUTPUT           │
-│  Structured report        │
-│  Tier-filtered            │
-│  JSON export              │
-└───────────────────────────┘
 
+<table>
+<tr>
+<td colspan="3" align="center">
+┌─────────────────────────────────────────────────┐
+│                     INPUT                        │
+│  GitHub repo · Contract address · Token ticker  │
+│  Explorer URL · owner/repo · Token symbol       │
+└─────────────────────────┬───────────────────────┘
+
+
+
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+┌──────────────────────────────┐
+│       ARCHETYPE ENGINE       │
+│  DEX · Stablecoin · DAO      │
+│  Lending · Bridge · Staking  │
+│  Normalizes false positives  │
+└──────────────┬───────────────┘
+
+
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+┌─────────────┐
+│   STATIC    │
+│    CODE     │
+└──────┬──────┘
+│
+┌──────▼──────┐
+│   EXPLOIT   │
+│   CHAINS    │
+└──────┬──────┘
+
+
+
+</td>
+<td align="center" width="33%">
+┌─────────────┐
+│   ONCHAIN   │
+│   STRUCT    │
+└──────┬──────┘
+│
+┌──────▼──────┐
+│    TRUST    │
+│    MODEL    │
+└──────┬──────┘
+
+
+
+</td>
+<td align="center" width="33%">
+┌─────────────┐
+│   MARKET    │
+│   +DERIVS   │
+└──────┬──────┘
+│
+┌──────▼──────┐
+│   SOCIAL    │
+│    INTEL    │
+└──────┬──────┘
+
+
+
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+┌───────────────────────────────────┐
+│     CROSS-LAYER CORRELATION       │
+│                                   │
+│  Code ↔ Onchain                   │
+│  Holder ↔ Governance              │
+│  Liquidity ↔ Oracle               │
+│  Behavior ↔ Structure             │
+│  Social ↔ Code                    │
+└─────────────────┬─────────────────┘
+
+
+
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+┌───────────────────────────────────┐
+│         TEMPORAL ENGINE           │
+│                                   │
+│  Role Δ · Upgrade Δ               │
+│  Holder Drift · OI Δ              │
+│  Audit Drift                      │
+└─────────────────┬─────────────────┘
+
+
+
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+┌───────────────────────────────────┐
+│             OUTPUT                │
+│  Structured report                │
+│  Tier-filtered                    │
+│  JSON export                      │
+└───────────────────────────────────┘
+
+
+
+</td>
+</tr>
+</table>
 
 
 ---
