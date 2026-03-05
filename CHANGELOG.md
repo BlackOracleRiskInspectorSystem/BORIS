@@ -1,5 +1,22 @@
 # BORIS — Changelog
 
+## patch 1.3.1 — 2025-06-XX
+
+### Added
+- Vyper language support — full static analysis + Invariant Correlation Engine integration (11 languages total)
+- CoinGecko social metrics database integration
+
+### Improved
+- Invariant Correlation Engine — stronger chain building, higher precision linking
+- Radar detection cycle — stabilized, faster catches, cleaner filtering
+- Social Intelligence (Telegram + X) — search and parsing logic completely rebuilt
+- BLACKBOX report visualization — cleaner structure, clearer verdicts
+- Search speed optimized across all modules
+- Bot trimmed — removed excess, kept what works
+
+### Fixed
+- Deployment pipeline issues
+- Minor text corrections across reports
 ## beta 1.3 — 2026-03-02
 
 ### Added
