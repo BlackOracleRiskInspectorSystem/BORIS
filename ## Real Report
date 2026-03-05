@@ -2,7 +2,7 @@
 
 <img src="boris_logo.png" alt="BORIS" width="320"/>
 
-# BORIS Beta v 1.3
+# BORIS Beta v 1.3.1
 ### Black Oracle Risk Inspection System
 
 **Threat surface intelligence for Web3 protocols.**
@@ -86,10 +86,10 @@ That's where the real signal is.
 ## Capability Matrix
 
 <details>
-<summary><b>📦 1. Static Code Analysis — 10+ languages, 4 engines</b></summary>
+<summary><b>📦 1. Static Code Analysis — 11 languages, 4 engines</b></summary>
 
 **Languages:**  
-`Solidity` · `Rust` · `Move (Aptos/Sui)` · `Go` · `Python` · `Java` · `C++` · `TypeScript` · `TON (FunC/Tact/Fift)` · `Elixir` · `Shell`
+`Solidity` · `Vyper` · `Rust` · `Move (Aptos/Sui)` · `Go` · `Python` · `Java` · `C++` · `TypeScript` · `TON (FunC/Tact/Fift)` · `Elixir` · `Shell`
 
 **Engines:** Slither · Mythril · Aderyn · Semgrep + custom detectors
 
@@ -496,24 +496,24 @@ All data reflects actual scan results — nothing fabricated.
 
 ---
 
+## Example Reports
+
 | Module | Example | Key finding |
 |--------|---------|-------------|
-| 🔥 BLACKBOX (Full) | [Governance Protocol](full-report/sample-governance-protocol.md) | Flash-loan governance · 48 findings outside audit scope · 4 exploit chains |
-| 🌐 Soroban Radar | [Stellar Scam Scan](soroban-radar/stellar-scam-scan.md) | 52 scams in 358 assets · 2 factory networks · $0 oracle cost |
-| 💰 Funds Flow | [Pool Analysis](funds-flow/sample-pool-analysis.md) | Wash trading 85/100 · 13 signals · volume inflation confirmed |
-| 📊 Market Engine | [Market Scan](market-scan/sample-market-engine.md) | OI/Depth 26x squeeze · GitHub abandoned 444d · smart money divergence |
-| 🐋 Holders | [Holder Distribution](holders/sample-holders-analysis.md) | 59.45% single contract · Top-10 real 88.3% · governance capture threshold |
-| 🛰 Social | [Social Intelligence](social/sample-social-intelligence.md) | 5 impersonators · 1.0% TG engagement · 315K X followers hollow |
+| 🔥 BLACKBOX | [Governance Protocol](examples/full-report/sample-governance-protocol.md) | Flash-loan governance · 48 findings outside audit scope |
+| 🌐 Soroban Radar | [Stellar Scam Scan](examples/soroban-radar/stellar-scam-scan.md) | 52 scams · $0 oracle cost · 2 factory networks |
+| 💰 Funds Flow | [Pool Analysis](examples/funds-flow/sample-pool-analysis.md) | Wash trading 85/100 · 13 signals |
+| 📊 Market Engine | [Market Scan](examples/market-scan/sample-market-engine.md) | OI/Depth 26x squeeze · GitHub 444d abandoned |
+| 🐋 Holders | [Holder Distribution](examples/holders/sample-holders-analysis.md) | 59.45% single contract · governance capture threshold |
+| 🛰 Social | [Social Intelligence](examples/social/sample-social-intelligence.md) | 5 impersonators · 1.0% TG engagement |
 
 ---
 
-> All outputs are from BORIS beta 1.3 CLI.
-> Telegram bot produces the same intelligence in structured report format.
+> All outputs are from BORIS beta 1.3.1 CLI.  
+> Telegram bot produces the same intelligence in structured report format.  
 > No fabricated data. No cherry-picked examples. Real scan, real protocol, names redacted.
----
 
-> Outputs are from BORIS beta 1.3 CLI.
-> Telegram bot produces the same intelligence in structured report format.
+
 ## On-Chain Intelligence Modules
 
 | Module | What it does |
@@ -603,7 +603,8 @@ STRUCTURAL PROFILE:
 🟡 Social trust:           48/100
 
 
-
+## Docs
+- [`CHANGELOG.md`](CHANGELOG.md) — version history
 ---
 
 ## Tiers
