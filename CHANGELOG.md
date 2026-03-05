@@ -1,6 +1,6 @@
 # BORIS — Changelog
 
-## patch 1.3.1 — 2025-06-XX
+## patch 1.3.1 — 2025-03
 
 ### Added
 - Vyper language support — full static analysis + Invariant Correlation Engine integration (11 languages total)
@@ -56,7 +56,7 @@
 
 ---
 
-## beta 1.2 — 2025-12
+## beta 1.2 — 2026-03
 
 ### Added
 - Audit drift analysis — PDF parsing + git diff from audit commit
@@ -72,7 +72,7 @@
 
 ---
 
-## beta 1.1 — 2025-10
+## beta 1.1 — 2026-03
 
 ### Added
 - Cross-layer correlation engine
@@ -88,7 +88,7 @@
 
 ---
 
-## beta 1.0 — 2025-08
+## beta 1.0 — 2026-03
 
 ### Initial release
 - Static code analysis (Solidity, Rust, Move, Go, Python, TypeScript)
