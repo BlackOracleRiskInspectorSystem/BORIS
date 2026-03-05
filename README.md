@@ -65,7 +65,7 @@ That's where the real signal is.
 </td>
 </tr>
 <tr>
-<td align="center">📦<br/><b>STATIC</b><br/><sub>10+ languages<br/>4 engines</sub></td>
+<td align="center">📦<br/><b>STATIC</b><br/><sub>11 languages<br/>4 engines</sub></td>
 <td align="center">🔎<br/><b>ONCHAIN</b><br/><sub>Proxy · ABI<br/>Trust Model</sub></td>
 <td align="center">⚠️<br/><b>MARKET</b><br/><sub>Spot · OI<br/>Derivatives</sub></td>
 <td align="center">🛰<br/><b>SOCIAL</b><br/><sub>TG · X<br/>Discord</sub></td>
