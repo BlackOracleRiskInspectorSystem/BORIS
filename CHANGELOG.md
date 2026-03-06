@@ -1,5 +1,20 @@
 # BORIS — Changelog
+![Detectors](https://img.shields.io/badge/ZK_detectors-26-red)
+## patch 1.3.2 — 2026-03
 
+### Added
+- ZK Intelligence Engine v3.0 [PREVIEW]
+  - 26 detectors, 55+ vulnerability classes
+  - VK soundness (gamma==delta), curve math, protocol logic, signal binding
+  - Proof forgery detection (frozen heart, malleability, negation)
+  - Backdoor detection (8 patterns + kill switch)
+  - Bytecode VK extraction (PUSH32/PUSH16+SHL) — no source required
+  - External verifier mutable pointer detection
+  - Trusted Setup Forensics — entropy, generator reuse, ceremony detection
+  - VK fingerprinting + clone detection + archetype engine (5 classes)
+  - ZK Radar — cross-chain verifier discovery + cluster analysis
+  - Severity calibration — archetype-aware design tradeoff remapping
+  - Validated: Tornado Cash (ETH/BSC/Polygon/DAI), FoomCash, Aztec Connect, Polygon zkEVM, zkSync Era
 ## patch 1.3.1 — 2025-03
 
 ### Added
