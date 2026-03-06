@@ -436,7 +436,45 @@ Analyzes derivatives market structure to detect squeeze conditions, position cro
 **Detects:** `leverage buildup` · `crowded positioning` · `squeeze setups` · `cascade risk` · `manipulation conditions`
 
 </details>
+<details>
+<summary><b>🔐 18. ZK Intelligence Engine — 26 detectors, 55+ vulnerability classes</b></summary>
 
+Automated zero-knowledge verifier analysis. Source + bytecode.
+
+**Analysis:**
+- VK Soundness — gamma==delta, generator validation, zero checks
+- Curve Math — G1/G2 membership, 5 G2 conventions
+- Protocol Logic — nullifier reuse, root validation, reentrancy
+- Signal Binding — frontrun, recipient, fee, relayer substitution
+- IC/Pairing — poisoning, truncation, overflow
+- Backdoors — 8 patterns + emergency kill switch
+- Bytecode — PUSH32/PUSH16+SHL VK extraction without source
+- Proof Forgery — frozen heart, malleability, negation
+- External Verifier — mutable pointer detection
+- Setup Forensics — entropy analysis, generator reuse, ceremony detection
+
+**Intelligence:**
+- VK Fingerprint — SHA256 trusted setup identity
+- Circuit Sizing — constraint estimation from IC length
+- Clone Detection — automatic Tornado fork identification
+- Archetype Engine — `TORNADO_MIXER` · `SEMAPHORE_IDENTITY` · `MACI_VOTING` · `ZK_ROLLUP` · `AZTEC_PRIVACY`
+- Cluster Analysis — cross-project VK reuse detection
+
+**ZK Radar:**
+- Pairing precompile detection (0x08 STATICCALL) in bytecode
+- VK extraction without source code
+- Persistent fingerprint database
+- Cross-chain: ETH · BSC · Polygon · Arbitrum · Base · Optimism
+- Cluster discovery + threat mapping
+
+**Severity Calibration:**
+- Archetype-aware remapping (privacy vs frontrun, open relayer, proof malleability, mutable verifier)
+- CRITICAL / HIGH / INFO with design tradeoff tagging
+
+**Validated on:**
+Tornado Cash (ETH/BSC/Polygon/DAI) · FoomCash · Aztec Connect · Polygon zkEVM · zkSync Era
+
+</details>
 ---
 
 ## Continuous Radar — 24/7
@@ -452,7 +490,19 @@ Real-time new repository monitoring.
 - Background task queue with instant alerts (BLACKBOX tier)
 
 </details>
+<details>
+<summary><b>🔐 ZK Radar</b></summary>
 
+Automatic on-chain ZK verifier discovery.
+
+- Pairing precompile detection (0x08 STATICCALL)
+- Bytecode VK extraction without source
+- Persistent fingerprint database
+- Cross-chain: ETH · BSC · Polygon · Arbitrum · Base · Optimism
+- VK reuse cluster discovery
+- Network-wide verifier threat surface mapping
+
+</details>
 <details>
 <summary><b>📊 DeFiLlama Radar</b></summary>
 
