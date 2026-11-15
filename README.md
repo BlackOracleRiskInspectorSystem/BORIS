@@ -4,7 +4,7 @@
 
 # BORIS Beta v 1.4
 ### Black Oracle Risk Inspection System
-**Deterministic 19-Layer Threat Surface Intelligence + AI Dossier Interpreter for Web3 Protocols.**
+**Deterministic 20-Layer Threat Surface Intelligence + AI Dossier Interpreter for Web3 Protocols.**
 
 *Code doesn't lie. Narratives do.*
 
@@ -15,7 +15,8 @@
 
 ![Status](https://img.shields.io/badge/status-live_v1.4-brightgreen)
 ![AI Cortex](https://img.shields.io/badge/Roadmap_v1.5-AI_Cortex_%26_Swarm_%5BSOON%5D-e11d48)
-![Layers](https://img.shields.io/badge/architecture-19%20layers%20%7C%2014%20engines%20%7C%206%20radars-blue)
+![Layers](https://img.shields.io/badge/architecture-20%20layers%20%7C%2014%20engines%20%7C%206%20radars-blue)
+![OSPEC](https://img.shields.io/badge/OSPEC-1.14M%20findings%20%7C%207%2C087%20REAL-orange)
 ![Languages](https://img.shields.io/badge/languages-12-orange)
 ![Intelligence](https://img.shields.io/badge/corpus-289k%2B%20targets%20%7C%2020.8k%20audits%20%7C%202.5k%20exploits-red)
 ![Chains](https://img.shields.io/badge/chains-EVM%20%7C%20Solana%20%7C%20Tron%20%7C%20Stellar%2FSoroban%20%7C%20TON%20%7C%20Move-orange)
@@ -37,7 +38,7 @@
 First-generation "AI security scanners" failed because they fed raw `.sol` files directly into an LLM and asked it to guess vulnerabilities — producing hallucinations, missed storage collisions, and fabricated findings.
 
 **BORIS is built on the opposite principle: Deterministic Execution First, Neural Interpretation Second.**
-1. **The Mechanical Hammer (19 Deterministic Layers — `LIVE in v1.4`):** Specialized static, on-chain, and mathematical engines inspect the protocol across **19 layers** — multi-language ASTs, live `eth_getStorageAt` EIP-1967 proxy slots, BN254 elliptic-curve math for ZK Groth16 verifiers, post-audit Git commit drift, whale concentration, 14-day funds flow, and CEX/DEX derivatives microstructure — emitting a **strict, verified JSON evidence dossier** (available across all tiers).
+1. **The Mechanical Hammer (20 Deterministic Layers — `LIVE in v1.4`):** Specialized static, on-chain, cryptographic, and secret-harvesting engines inspect the protocol across **20 layers** — multi-language ASTs, live `eth_getStorageAt` EIP-1967 proxy slots, BN254 elliptic-curve math for ZK Groth16 verifiers, **OSPEC secret & key leak intelligence**, post-audit Git commit drift, whale concentration, 14-day funds flow, and CEX/DEX derivatives microstructure — emitting a **strict, verified JSON evidence dossier** (available across all tiers).
 2. **Grounded Institutional Memory (`LIVE in v1.4`):** Every scan is cross-referenced against BORIS's local databases: **20,826 completed engineering audits**, **2,539 historical exploit post-mortems & Foundry PoCs**, and **289,000+ indexed radar targets**.
 3. **BORIS Neural Cortex & Autonomous Swarm (`SOON in v1.5 · from RAW+ tier`):** While `GUEST` and `RADAR` tiers receive the deterministic report, `RAW` and `BLACKBOX` operators unlock the AI Dossier Interpreter (which translates verified JSON telemetry + matched historical precedents into human intelligence with 0% raw-code hallucination) and personal **Agent Swarm Control** to dispatch autonomous inspection swarms across custom targets.
 
@@ -89,8 +90,8 @@ That's where the real signal is.
 <tr>
 <td colspan="7" align="center">
 
-**19-LAYER CROSS-CORRELATION ENGINE + BORIS NEURAL CORTEX**  
-`Code ↔ Proxy Storage ↔ ZK Math ↔ Holders ↔ Funds Flow ↔ Derivatives ↔ Historical Exploits`
+**20-LAYER CROSS-CORRELATION ENGINE + OSPEC + BORIS NEURAL CORTEX**  
+`Code ↔ Proxy Storage ↔ ZK Math ↔ OSPEC Secrets ↔ Holders ↔ Funds Flow ↔ Derivatives ↔ Historical Exploits`
 
 </td>
 </tr>
@@ -98,8 +99,8 @@ That's where the real signal is.
 <td align="center">📦<br/><b>STATIC</b><br/><sub>12 languages<br/>AST + Bytecode</sub></td>
 <td align="center">🔎<br/><b>ONCHAIN</b><br/><sub>EIP-1967 · ABI<br/>Deployer</sub></td>
 <td align="center">🔐<br/><b>ZK & SANDBOX</b><br/><sub>Groth16 BN254<br/>Matrix v16.2</sub></td>
+<td align="center">🗝️<br/><b>OSPEC</b><br/><sub>1.14M Findings<br/>7,087 REAL · 550 LIVE</sub></td>
 <td align="center">⚠️<br/><b>MARKET</b><br/><sub>Spot · OI<br/>Derivatives</sub></td>
-<td align="center">🛰<br/><b>OSINT & OSPEC</b><br/><sub>Social · Surface<br/>1.14M Secrets</sub></td>
 <td align="center">📡<br/><b>RADAR 24/7</b><br/><sub>289k+ Targets<br/>20.8k Audits</sub></td>
 <td align="center">🧠<br/><b>AI & SWARM</b><br/><sub>v1.5 (RAW+)<br/>Interpreter</sub></td>
 </tr>
@@ -114,7 +115,7 @@ That's where the real signal is.
 
 ---
 
-## Capability Matrix (19 Layers)
+## Capability Matrix (20 Layers)
 
 <details>
 <summary><b>📦 1. Static Code Analysis — 12 languages, multi-engine + custom AST detectors</b></summary>
@@ -410,10 +411,28 @@ Automated zero-knowledge verifier analysis. Source + bytecode.
 </details>
 
 <details>
-<summary><b>🗝️ 19. OSPEC Secret Intelligence & Matrix Sandbox v16.2</b></summary>
+<summary><b>🛡️ 19. Web3 Surface Mapper & Matrix Sandbox v16.2</b></summary>
 
-- **OSPEC (Oracle SPECtrum):** continuous GitHub & config secret indexing across **31,837 repositories (`1,144,698` scanned findings)** with multi-stage cryptographic validation (`l2_validators_v2` + `kind_rules` L2.5 filtering), isolating **7,087 verified `REAL` secrets** and **550 `LIVE` on-chain/API keys** (`secp256k1`, `ed25519`, `BIP-39` checksums, `EIP-7702` delegations, `eth_keystore_v3`, Alchemy/Infura/RPC endpoints).
-- **Matrix Sandbox v16.2:** isolated child-process execution engine for untrusted Python/Web3 helpers and PoCs using kernel-level `sys.addaudithook` and `_BlockedImportFinder`, blocking secret file access and simulating network/process calls (`MockSocket`, `MockSession`, `MockPopen`) with strict `BLOCKED / SIMULATED / EXECUTED` telemetry.
+- **Web3 Surface Mapper (`web3_surface_mapper`):** parallel reconnaissance across 18 protocol subdomains (`app`, `api`, `rpc`, `graphql`, `admin`, `staging`, `bridge`, `docs`) with automated extraction of hardcoded `0x` contract addresses, private RPC endpoints, and exposed `.map` source maps from frontend JS bundles.
+- **Matrix Sandbox v16.2 (`matrix_sandbox_v16_2`):** isolated child-process execution engine for untrusted Python/Web3 helpers and PoCs using kernel-level `sys.addaudithook` and `_BlockedImportFinder`, blocking secret file access and simulating network/process calls (`MockSocket`, `MockSession`, `MockPopen`) with strict `BLOCKED / SIMULATED / EXECUTED` telemetry.
+
+</details>
+
+<details>
+<summary><b>🗝️ 20. OSPEC — Oracle SPECtrum (Secret, Key & Infrastructure Leak Intelligence)</b></summary>
+
+Continuous automated discovery, cryptographic verification, and on-chain enrichment of leaked secrets across Web3 repositories and deployment configurations.
+
+**Scale & Coverage:**
+- **31,837+ Web3 repositories** scanned continuously (`1,144,698` indexed raw findings in `harvester.db`)
+- **7,087 verified `REAL` secrets** across `777` repositories after L2.5 anti-FP filtering
+- **550 `LIVE` verified keys** with active on-chain balances, nonces, or live RPC/API responses
+
+**Multi-Stage Cryptographic Validation (`l2_validators_v2` + `l2_coverage` + `kind_rules`):**
+- **Cryptographic Key Verification:** `secp256k1` scalar range & address derivation (`hex_privkey`), `ed25519` curve point verification (`solana_keypair_array`, context-gated `solana_seed_hex`), `BIP-39` 2048-word dictionary & entropy checksum verification (`bip39_mnemonic`), `eth_keystore_v3` JSON structure & MAC validation, `PEM` ASN.1 DER structure checks, `NEAR` `ed25519:` base58 keys, and `Stellar` `S...` CRC16-XModem seeds.
+- **On-Chain & EIP-7702 Live Enrichment (`l5_live_key_detector`):** automatic multi-chain balance (`balance_wei`), transaction count (`nonce`), and **EIP-7702 delegation (`0xef0100 || delegate_addr`)** inspection across Ethereum, Arbitrum, Base, Optimism, Polygon, BSC, and Solana.
+- **Infrastructure & RPC/API Probing:** Alchemy v2, Infura project URLs, QuickNode, Ankr, Etherscan keys, GitHub PATs (`ghp_`/`github_pat_`), AWS `AKIA`, GCP Service Accounts, PostgreSQL/MongoDB/Redis connection URIs, JWTs, Telegram bot tokens, and Slack/Discord tokens.
+- **L2.5 False-Positive Elimination:** automatic filtering of Hardhat/Anvil/Foundry test accounts (`known_test_addrs`), SHA-256 checksum manifests, placeholder strings, and documentation vectors.
 
 </details>
 
@@ -459,6 +478,15 @@ Automated zero-knowledge verifier analysis. Source + bytecode.
 
 - Pairing precompile detection (`0x08 STATICCALL`) and bytecode VK extraction without source code
 - Cross-chain VK reuse cluster discovery (`zk_radar_v4.db`)
+
+</details>
+
+<details>
+<summary><b>🗝️ OSPEC Secret Harvester — 31,837+ Repos / 7,087 Verified REAL Secrets [RADAR+]</b></summary>
+
+- Continuous background scanning of newly discovered GitHub repositories (`radar_watcher.py`)
+- Multi-stage L2.5 cryptographic validation (`63/63` automated self-tests) separating real credentials (`REAL`) from test vectors (`TEST`)
+- Live EVM/Solana address derivation, balance/nonce checking, and repository-grouped drill-down in both Telegram (`/ospec`) and Web Terminal (`/dashboard`)
 
 </details>
 

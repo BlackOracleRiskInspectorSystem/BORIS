@@ -26,8 +26,9 @@
   - **6 Live 24/7 Radar Streams** with server-side pagination (`289,000+` indexed targets + `20,826` pre-computed dossiers in `AUDITS_BASE` + 1-click DeFiLlama Enricher).
   - **Sovereign Multi-Chain Checkout (`hd_treasury.py`):** BIP-44 HD wallet invoicing across 7 networks (`Arbitrum`, `Base`, `BSC`, `Polygon`, `Ethereum`, `TRON`, `Solana`) + `@CryptoBot` + 1-click Telegram account/history sync (`websync_`).
 - **Roadmap v1.5 Preview — BORIS Neural Cortex & Agent Swarm (`SOON · RAW+ Tiers`):**
-  - Two-stage neuro-symbolic architecture: deterministic 19-layer engine produces a verified JSON dossier first (available on all tiers), followed by AI interpretation grounded in 20,826 archived audits and 2,539 exploit precedents + personal Agent Swarm orchestration for `RAW` and `BLACKBOX` tiers (0% raw-code hallucination).
-- **OSPEC L2.5 Verification & Context Gating Upgrade:**
+  - Two-stage neuro-symbolic architecture: deterministic 20-layer engine produces a verified JSON dossier first (available on all tiers), followed by AI interpretation grounded in 20,826 archived audits and 2,539 exploit precedents + personal Agent Swarm orchestration for `RAW` and `BLACKBOX` tiers (0% raw-code hallucination).
+- **20th Layer — OSPEC (Oracle SPECtrum) L2.5 Verification & Context Gating Upgrade:**
+  - Dedicated 20th analysis layer indexing `1,144,698` findings across `31,837` repositories (`7,087` verified `REAL` secrets and `550` `LIVE` keys).
   - `l2_validators_v2`, `l2_coverage`, `kind_rules`, and `secret_signatures` expanded with 63 automated self-tests (`test_ospec.py`).
   - `api_key_pool.py` upgraded to rotate 100+ RPC/API keys (`49` Alchemy, `35` Infura, `6` Etherscan V2, `3` GitHub PAT, `3` Ankr, `2` Helius, `2` CoinGecko).
 
