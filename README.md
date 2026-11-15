@@ -2,43 +2,74 @@
 
 <img src="boris_logo.png" alt="BORIS" width="320"/>
 
-# BORIS Beta v 1.3.1
+# BORIS Beta v 1.4
 ### Black Oracle Risk Inspection System
-
-**Threat surface intelligence for Web3 protocols.**
+**Deterministic 19-Layer Threat Surface Intelligence + AI Dossier Interpreter for Web3 Protocols.**
 
 *Code doesn't lie. Narratives do.*
 
+[![Web Terminal](https://img.shields.io/badge/Web_Terminal-black--oracle.com-e11d48?style=flat&logo=cloudflare&logoColor=white)](https://black-oracle.com)
 [![Bot](https://img.shields.io/badge/Telegram-Bot-2CA5E0?style=flat&logo=telegram)](https://t.me/BlackOracleBORIS_bot)
-[![EN](https://img.shields.io/badge/Channel-EN-2CA5E0?style=flat&logo=telegram)](https://t.me/Black_Oracle_BORIS_eng)
-[![RU](https://img.shields.io/badge/Channel-RU-2CA5E0?style=flat&logo=telegram)](https://t.me/Black_Oracle_BORIS_ru)
+[![Support](https://img.shields.io/badge/Support-@V__swarm-2CA5E0?style=flat&logo=telegram)](https://t.me/V_swarm)
 [![Twitter](https://img.shields.io/badge/Twitter-@BlackOracleRoot-000000?style=flat&logo=x)](https://x.com/BlackOracleRoot)
 
-![Status](https://img.shields.io/badge/status-live-brightgreen)
-![Files](https://img.shields.io/badge/codebase-60%20files%20%7C%2078k%20lines-blue)
-![Functions](https://img.shields.io/badge/functions-1%2C169-blue)
-![Languages](https://img.shields.io/badge/languages-10%2B-orange)
-![Chains](https://img.shields.io/badge/chains-EVM%20%7C%20Solana%20%7C%20Tron%20%7C%20Stellar-orange)
+![Status](https://img.shields.io/badge/status-live_v1.4-brightgreen)
+![AI Cortex](https://img.shields.io/badge/Powered_by_AI-BORIS_Neural_Cortex-e11d48)
+![Files](https://img.shields.io/badge/codebase-335%2B%20modules%20%7C%20130k%2B%20lines-blue)
+![Layers](https://img.shields.io/badge/architecture-19%20layers%20%7C%2014%20engines-blue)
+![Languages](https://img.shields.io/badge/languages-12-orange)
+![Intelligence](https://img.shields.io/badge/corpus-289k%2B%20targets%20%7C%2010.8k%20audits%20%7C%202.5k%20exploits-red)
+![Chains](https://img.shields.io/badge/chains-EVM%20%7C%20Solana%20%7C%20Tron%20%7C%20Stellar%2FSoroban%20%7C%20TON%20%7C%20Move-orange)
 
 </div>
 
 ---
 
-> ### ⚠️ Active Development
-> This is a live system under continuous development.
-> Documentation reflects the current minimum viable state.
-> Inconsistencies between docs and behaviour are a side effect of velocity, not negligence.
+> ### ⚠️ Active Development — Beta v 1.4
+> BORIS is a live, continuously evolving sovereign intelligence system (**[black-oracle.com](https://black-oracle.com)** + **[@BlackOracleBORIS_bot](https://t.me/BlackOracleBORIS_bot)**).
+> Documentation reflects the production v1.4 architecture.
 > **If something is missing — it's being built. If something is wrong — it's being fixed.**
 
 ---
+
+## ⚡ What's New in BORIS Beta v 1.4
+
+### 1. 🧠 Powered by AI — BORIS Neural Cortex (Zero-Hallucination Dossier Interpreter)
+First-generation "AI security scanners" failed because they fed raw `.sol` files directly into an LLM and asked it to guess vulnerabilities — producing hallucinations, missed storage collisions, and fabricated findings.
+
+**BORIS is built on the opposite principle: Deterministic Execution First, Neural Interpretation Second.**
+1. **The Mechanical Hammer (`130,000+` LOC Deterministic Core):** `335+` specialized Python modules inspect the protocol across **19 layers** — multi-language ASTs, live `eth_getStorageAt` EIP-1967 proxy slots, BN254 elliptic-curve math for ZK Groth16 verifiers, post-audit Git commit drift, whale concentration, 14-day funds flow, and CEX/DEX derivatives microstructure — emitting a **strict, verified JSON evidence dossier**.
+2. **Grounded Institutional Memory:** Every scan is cross-referenced against BORIS's local databases: **10,826 completed engineering audits (`AUDITS_BASE`)**, **2,539 historical exploit post-mortems & Foundry PoCs**, and **289,000+ indexed radar targets**.
+3. **BORIS Neural Cortex (`Powered by AI`):** The AI Interpreter never guesses raw code or browses the web. It ingests BORIS's verified JSON dossier + matched historical precedents and translates complex multi-layer telemetry into a clear, actionable human executive briefing for auditors, founders, and risk desks.
+
+### 2. 🌐 Full Web SaaS Terminal — [black-oracle.com](https://black-oracle.com)
+Alongside the Telegram terminal, BORIS v1.4 launches a full browser-based intelligence workstation:
+- **14 Interactive Intelligence Engines** in the Operator Cabinet (`/dashboard`):
+  1. **Holders & Whales** (Top-10 concentration, CEX/LP/bridge normalization)
+  2. **Market & Derivatives** (`/market` — Open Interest, Funding, Long/Short, $\pm 2\%$ orderbook depth, manipulation & squeeze scoring)
+  3. **14-Day Funds Flow** (wash-trading cycles, coordinated bot clusters, mixer/bridge attribution)
+  4. **Social & OSINT** (GitHub/X/Telegram/Discord cross-verification & impersonator detection)
+  5. **Soroban / Stellar SIM** (WASM contract analysis, `AUTH_CLAWBACK`/`AUTH_REVOCABLE` flags, SDEX depth & VWAP manipulation cost)
+  6. **OSPEC Secret & Config Intelligence** (`1,144,698` scanned findings across `31,837` repos, L2.5-filtered to `7,087` verified `REAL` secrets and `550` `LIVE` keys with drill-down occurrences)
+  7. **2,539 Exploits & Foundry PoC Corpus** (`1,678` deep technical writeups with full Foundry tests + `861` structured incidents, dual `0x`-contract matcher and keyword search)
+  8. **Deployer & Address Profiler** (`AddressIntelligence` + batch `DeployAnalyzer` creator wallet forensics)
+  9. **Proxy & EIP-1967 Storage Inspector** (`implementation`, `admin`, `beacon`, legacy OZ slots + uninitialized `initialize()` probing)
+  10. **Flash-Loan & Spot-Oracle Detector** (`slot0`/`getReserves` spot reads vs TWAP/Chainlink defenses + cross-chain bridge bytecode signatures)
+  11. **Web3 Surface Mapper** (parallel 18-subdomain recon + frontend JS bundle contract/RPC/sourcemap extraction)
+  12. **Post-Audit Git Drift** (automatic PDF audit parsing in `audits/` + Git commit drift since last audit date)
+  13. **ZK Groth16 Verifier Auditor** (BN254 curve/subgroup soundness, $\gamma == \delta$, Frozen Heart, and fingerprint matching against `4,982` on-chain verifiers)
+  14. **Matrix Sandbox v16.2** (kernel-level `sys.addaudithook` + `_BlockedImportFinder` isolated Python/Web3 execution with `BLOCKED / SIMULATED / EXECUTED` telemetry)
+- **6 Live 24/7 Radar Streams** with server-side pagination: `GitHub Radar (33,424 repos)`, `DeFiLlama Radar (9,420 protocols + 1-click Enricher)`, `Verified Contracts (246,007 across 5 EVM chains)`, `Soroban Radar (641 targets)`, `ZK Verifier Radar (4,982 verifiers)`, and `Archive Dossiers (10,826 instant reports)`.
+- **Unified Web ↔ Telegram Sync & Sovereign Billing:** 1-click `tg://resolve` account/history synchronization and zero-middleman **BIP-44 HD multi-chain checkout** across 7 networks (`Arbitrum`, `Base`, `BSC`, `Polygon`, `Ethereum`, `TRON`, `Solana`) + `@CryptoBot`.
+
+---
+
 ## What BORIS is not
-✗  Not a “rug checker”
-✗  Not a safety score
-✗  Not investment advice
-✗  Not “scam / not scam”
-✗  Does not care about brand, reputation, or market cap
-
-
+✗  Not a “rug checker”  
+✗  Not a safety score  
+✗  Not investment advice  
+✗  Not “scam / not scam”  
+✗  Does not care about brand, reputation, or market cap  
 
 ## What BORIS is
 
@@ -57,25 +88,26 @@ That's where the real signal is.
 
 <table>
 <tr>
-<td colspan="6" align="center">
+<td colspan="7" align="center">
 
-**CROSS-LAYER CORRELATION ENGINE**  
-`Code ↔ Onchain ↔ Holders ↔ Market ↔ Social ↔ Derivatives`
+**19-LAYER CROSS-CORRELATION ENGINE + BORIS NEURAL CORTEX**  
+`Code ↔ Proxy Storage ↔ ZK Math ↔ Holders ↔ Funds Flow ↔ Derivatives ↔ Historical Exploits`
 
 </td>
 </tr>
 <tr>
-<td align="center">📦<br/><b>STATIC</b><br/><sub>11 languages<br/>4 engines</sub></td>
-<td align="center">🔎<br/><b>ONCHAIN</b><br/><sub>Proxy · ABI<br/>Trust Model</sub></td>
+<td align="center">📦<br/><b>STATIC</b><br/><sub>12 languages<br/>AST + Bytecode</sub></td>
+<td align="center">🔎<br/><b>ONCHAIN</b><br/><sub>EIP-1967 · ABI<br/>Deployer</sub></td>
+<td align="center">🔐<br/><b>ZK & SANDBOX</b><br/><sub>Groth16 BN254<br/>Matrix v16.2</sub></td>
 <td align="center">⚠️<br/><b>MARKET</b><br/><sub>Spot · OI<br/>Derivatives</sub></td>
-<td align="center">🛰<br/><b>SOCIAL</b><br/><sub>TG · X<br/>Discord</sub></td>
-<td align="center">🔐<br/><b>GOVERNANCE</b><br/><sub>Privilege<br/>Drift</sub></td>
-<td align="center">📡<br/><b>RADAR</b><br/><sub>24/7<br/>Live</sub></td>
+<td align="center">🛰<br/><b>OSINT & OSPEC</b><br/><sub>Social · Surface<br/>1.14M Secrets</sub></td>
+<td align="center">📡<br/><b>RADAR 24/7</b><br/><sub>289k+ Targets<br/>10.8k Audits</sub></td>
+<td align="center">🧠<br/><b>AI CORTEX</b><br/><sub>JSON + 2.5k PoCs<br/>Interpreter</sub></td>
 </tr>
 <tr>
-<td colspan="6" align="center">
+<td colspan="7" align="center">
 
-**TEMPORAL ENGINE** — `Role Δ · Upgrade Δ · Holder Drift · OI Δ · Audit Drift`
+**TEMPORAL & PRECEDENT ENGINE** — `Role Δ · Upgrade Δ · Holder Drift · OI Δ · Post-Audit Git Drift · 2,539 Exploit Signatures`
 
 </td>
 </tr>
@@ -83,53 +115,52 @@ That's where the real signal is.
 
 ---
 
-## Capability Matrix
+## Capability Matrix (19 Layers)
 
 <details>
-<summary><b>📦 1. Static Code Analysis — 11 languages, 4 engines</b></summary>
+<summary><b>📦 1. Static Code Analysis — 12 languages, multi-engine + custom AST detectors</b></summary>
 
 **Languages:**  
-`Solidity` · `Vyper` · `Rust` · `Move (Aptos/Sui)` · `Go` · `Python` · `Java` · `C++` · `TypeScript` · `TON (FunC/Tact/Fift)` · `Elixir` · `Shell`
+`Solidity` · `Vyper` · `Rust (Solana/Anchor, Soroban, Near)` · `Move (Aptos/Sui)` · `TON (FunC/Tact/Fift)` · `Go` · `Python` · `Java` · `C++` · `TypeScript` · `Elixir` · `Shell`
 
-**Engines:** Slither · Mythril · Aderyn · Semgrep + custom detectors
+**Engines:** Slither · Mythril · Aderyn · Semgrep + proprietary structural & invariant detectors
 
 | Pattern | Severity |
 |---------|----------|
-| Reentrancy (standard + read-only) | CRITICAL |
+| Reentrancy (standard + cross-function + read-only) | CRITICAL |
 | Delegatecall misuse | CRITICAL |
 | Arbitrary call surface | CRITICAL |
 | Emergency drain patterns | CRITICAL |
-| Hidden backdoor signatures | CRITICAL |
+| Uninitialized proxy / implementation `initialize()` | CRITICAL |
 | Unchecked transfer / return | HIGH |
-| Oracle spot-price dependency | HIGH |
+| Oracle spot-price dependency (`slot0` / `getReserves` without TWAP) | HIGH |
 | Mint / burn without bounds | HIGH |
-| Proxy upgrade surface | HIGH |
+| Proxy upgrade surface in single EOA | HIGH |
 | Storage layout collision | HIGH |
 | Flash-loan governance vectors | MEDIUM |
 | Privileged role escalation | MEDIUM |
 
 - Precise `file:line` mapping for every finding
-- Custom risk taxonomy
+- Custom risk taxonomy correlated against 2,539 historical exploit signatures
 - Pattern classification: CRITICAL / HIGH / MEDIUM / LOW / INFO
 
 </details>
 
 <details>
-<summary><b>🔎 2. Onchain Structural Analysis</b></summary>
+<summary><b>🔎 2. Onchain Structural & EIP-1967 Proxy Analysis</b></summary>
 
 **Chains:** Ethereum · BSC · Polygon · Arbitrum · Base · Optimism · Solana · Tron · Stellar/Soroban
 
 **Proxy Resolution:**
-- ERC1967, UUPS, Transparent Proxy, custom patterns
-- Implementation discovery
-- Upgrade surface detection
+- Direct `eth_getStorageAt` inspection of ERC1967 (`implementation`, `admin`, `beacon`), UUPS, Transparent Proxy, and legacy OpenZeppelin slots
+- Implementation discovery & bytecode selector extraction
+- Uninitialized `initialize()` simulation probing (`uninit_proxy_scan`)
 - Storage layout inspection + collision detection
 
 **Role & Control Mapping:**
-- Privileged role extraction
-- Role distribution mapping
+- Privileged role extraction & EOA vs Multisig/Timelock attribution
 - Admin function surface mapping: `pause` / `blacklist` / `emergencyWithdraw` / `upgradeTo`
-- Deployment surface mapping
+- Creator/Deployer wallet forensics (`AddressIntelligence` + `DeployAnalyzer`)
 - Multi-contract linkage: factory → router → vault → token
 
 </details>
@@ -143,8 +174,7 @@ Reduces false positives through architectural context.
 - DEX normalization — LP mint/burn, spot oracle patterns flagged as by design
 - Liquidity staking normalization
 - Governance protocol normalization
-- LP pair normalization
-- Router normalization
+- LP pair & Router normalization
 - Factory-driven architecture context
 
 > Findings are scored against protocol archetype before surfacing.  
@@ -153,18 +183,16 @@ Reduces false positives through architectural context.
 </details>
 
 <details>
-<summary><b>🔗 4. Exploit Chain Modeling — Invariant Correlation Engine</b></summary>
+<summary><b>🔗 4. Exploit Chain Modeling — Invariant Correlation Engine + 2,539 Exploits Corpus</b></summary>
 
 Isolated findings become real attack paths.
 
 - Prerequisite-based scenario modeling
 - Multi-step exploit chain modeling
+- Cross-reference against **2,539 historical exploits** (`1,678` deep writeups with Foundry PoCs + `861` DeFiHackLabs incidents)
 - Flash-loan scenario simulation (logical)
-- Governance capture chains
-- Oracle manipulation chains
-- Storage corruption chains
-- Conditional impact mapping
-- Likelihood / impact heuristic scoring
+- Governance capture & oracle manipulation chains
+- Bridge bytecode signature detection (`UPGRADE`, `ARBCALL`, `DRAIN`, `FLASH`, `REPLAY`)
 - Context amplifiers: liquidity depth · holder concentration · role density
 
 | Chain | Key Prerequisites |
@@ -197,17 +225,13 @@ Isolated findings become real attack paths.
 <details>
 <summary><b>🐋 6. Holder Model</b></summary>
 
-- Holder distribution index
-- Top-10 concentration
+- Holder distribution index & Top-10 concentration
 - Real concentration correction — pools / CEX normalization
-- Whale classification
-- Contract holder classification
-- Proxy holder detection
-- LP concentration detection
-- Extreme single holder detection
+- Whale, contract, and proxy holder classification
+- LP concentration & extreme single holder detection
 - Governance concentration heuristics
 
-**Sources:** Etherscan · BscScan · Blockscout · Helius (Solana) · Rugcheck · Tronscan
+**Sources:** Etherscan V2 (rotated key pool) · BscScan · Blockscout · Helius (Solana) · Rugcheck · Tronscan
 
 **Example output:**  
 `🔴 extreme (Top10 > 88%) — #1 holds 59.5% (contract) · #2 Binance Hot Wallet 5.8%`  
@@ -244,43 +268,36 @@ Defines the actual trust assumptions of the system.
 </details>
 
 <details>
-<summary><b>🛰 9. Behavioral Layer</b></summary>
+<summary><b>🛰 9. Behavioral & 14-Day Funds Flow Layer</b></summary>
 
-- Cyclic swap detection
-- Concentrated trader detection
-- Flow clustering
-- Suspicious repetition heuristics
-- Temporal activity spikes
-- Liquidity event correlation
+- 14-day transaction graph & flow clustering (`funds_flow_analyzer`)
+- Cyclic swap & wash-trading loop detection
+- Concentrated trader & coordinated bot-cluster detection
+- Temporal activity spikes & liquidity event correlation
 - Trader dominance scoring
 
 </details>
 
 <details>
-<summary><b>📉 10. Audit Drift Analysis</b></summary>
+<summary><b>📉 10. Post-Audit Git Drift Analysis</b></summary>
 
 Audits are snapshots. BORIS tracks what changed after.
 
+- Automatic PDF/Markdown audit report parsing inside `audits/` (`UnifiedAuditAnalyzer`)
+- Full Git commit history analysis after the last audit date (`GitDriftAnalyzer`)
 - Repo vs deployed bytecode divergence
-- Pattern delta vs previous scans
-- Severity drift tracking
-- Prerequisite drift tracking
-- Governance mutation detection
-- Structural surface expansion detection
-- Findings without simulation artifacts
-- Simulation artifacts without findings
-- Alignment density calculation
-- Structural mismatch detection
+- Pattern delta, severity drift, and prerequisite drift tracking
+- Structural surface expansion & quantitative **Audit Drift Score**
 
-**Supported audit firms:** OpenZeppelin · Trail of Bits · Sherlock · Code4rena · Cyfrin · Hacken · Ambisafe
+**Supported audit firms:** OpenZeppelin · Trail of Bits · Sherlock · Code4rena · Cyfrin · Spearbit · Cantina · Hacken · Ambisafe
 
 **Example output:**
+```
 Audits: 6 | Last: 2024-08-30 (549d) ⚠️ STALE
 Was: C3/H2 → Now: C5/H45
 Still present: 4 | Potentially fixed: 10 | New (outside audit scope): 48
 Files outside audit coverage: GovUserKeeper.sol · GovValidators.sol · GovPool.sol
-
-
+```
 
 </details>
 
@@ -290,40 +307,26 @@ Files outside audit coverage: GovUserKeeper.sol · GovValidators.sol · GovPool.
 BORIS detects attacker mock contracts in the repo and correlates them with real findings.
 
 - Attacker mock detection
-- Scenario graph extraction
-- Transition graph parsing: `deposit→vote→withdraw`
-- Declared prerequisite extraction
-- Observed prerequisite matching
-- Alignment index calculation
-- Partial alignment detection
-- Missing prerequisite detection
-- Undocumented surface detection
-- Findings without simulation support
+- Scenario graph extraction & transition graph parsing: `deposit→vote→withdraw`
+- Declared vs observed prerequisite matching
+- Alignment index calculation & undocumented surface detection
 
 **Example output:**
+```
 GovPoolAttackerMock.sol
 Declared:  ARBITRARY_CALL, FLASH_LOAN_GOVERNANCE, GOVERNANCE_MANIPULATION, NO_SNAPSHOT
 Observed:  ARBITRARY_CALL, NO_SNAPSHOT
 Match: 2/4 🔸 partial_alignment
-
-ACCESS_CONTROL_MISCONFIG — no simulation artifact found
-AMM_SPOT_ORACLE — no simulation artifact found
-
-
+```
 
 </details>
 
 <details>
-<summary><b>🏗 12. Structural Profiling Engine</b></summary>
+<summary><b>🏗 12. Structural Profiling & Web3 Surface Mapping</b></summary>
 
-- Governance index
-- Code pattern density index
-- Liquidity risk index
-- Holder concentration index
-- Composite structural profile
-- Density-based surface classification
-- Expanded surface detection
-- Architectural complexity scoring
+- Governance, Code pattern density, Liquidity risk, and Holder concentration indices
+- **Web3 Surface Mapper:** parallel reconnaissance across 18 protocol subdomains (`app`, `api`, `rpc`, `graphql`, `admin`, `staging`, `bridge`)
+- Extraction of hardcoded `0x` contract addresses, RPC endpoints, and exposed `.map` source maps from frontend JS bundles
 
 </details>
 
@@ -332,23 +335,17 @@ AMM_SPOT_ORACLE — no simulation artifact found
 
 - Arbitrary execution surface detection
 - Proposal execution exposure
-- Snapshot absence detection
-- Flash-loan governance vector detection
-- Role mutation exposure
-- Upgrade authority mapping
-- Proxy implementation transparency check
+- Snapshot absence & flash-loan governance vector detection
+- Role mutation exposure & upgrade authority mapping
 
 </details>
 
 <details>
-<summary><b>📡 14. Deployment Graph Awareness</b></summary>
+<summary><b>📡 14. Deployment Graph & Creator Forensics</b></summary>
 
-- Multi-contract deployment mapping
-- Factory lineage detection
+- Multi-contract deployment mapping & factory lineage detection
 - Proxy-to-logic mapping
-- Cross-address relationship hints
-- Contract classification
-- Chain-specific deployment mapping
+- **Deployer & Address Profiler:** automated profiling of the creator wallet (`creator_profile`: age, balance, sibling deployments)
 
 </details>
 
@@ -360,7 +357,8 @@ AMM_SPOT_ORACLE — no simulation artifact found
 - Liquidity ↔ Oracle dependency correlation
 - Holder ↔ Governance correlation
 - Role surface ↔ Trust model correlation
-- Behavioral ↔ Structural amplification
+
+```
 Code says timelock exists
 → Onchain: never deployed
 → Signal: GOVERNANCE_MISMATCH
@@ -373,32 +371,19 @@ Thin DEX pool ($631K liquidity)
 → Spot oracle reads this pool
 → Signal: PRICE_MANIPULATION_FEASIBLE
 
-Wash trading detected
-→ Mint control exists in code
-→ Signal: EXTRACTION_SETUP
-
 “Fully decentralized DAO” in docs
 → Code: pause() + blacklist() + upgradeable proxy
 → Signal: NARRATIVE_MISMATCH
-
-Attacker mock found in /test
-→ No corresponding audit finding
-→ Signal: UNDOCUMENTED_ATTACK_SURFACE
-
-
+```
 
 </details>
 
 <details>
 <summary><b>⏳ 16. Temporal Engine</b></summary>
 
-- Role delta tracking
-- Proxy upgrade delta
-- Storage layout diff
-- Holder concentration drift
-- Liquidity migration detection
-- Privileged surface mutation tracking
-- Structural index drift
+- Role delta & proxy upgrade delta tracking
+- Storage layout diff & holder concentration drift
+- Liquidity migration & structural index drift
 
 </details>
 
@@ -407,146 +392,83 @@ Attacker mock found in /test
 
 Analyzes derivatives market structure to detect squeeze conditions, position crowding, and inorganic movements.
 
-**Open Interest:**
-- Open Interest aggregation (Binance, Bybit, OKX)
-- OI velocity analysis
-- OI vs price divergence detection
-- OI vs volume ratio analysis
-- OI vs market cap ratio analysis
-- Cross-exchange OI distribution analysis
-- OI concentration risk detection
-- Synthetic leverage density estimation
-  - leverage buildup
-  - crowding
-  - leverage imbalance
-  - unstable positioning
-
-**Positioning Intelligence:**
-- Funding Rate Intelligence
-- Long / Short Positioning Intelligence
-- Aggressor Flow Intelligence
-- Cross-Exchange Derivatives Correlation
-- Derivatives regime classification
-
-**Risk Modeling:**
-- Orderbook Liquidity Intelligence
-- Liquidation Risk Modeling
-- Temporal Derivatives Tracking
+- **Open Interest:** cross-exchange aggregation, OI velocity, OI/volume & OI/mcap ratios, synthetic leverage density
+- **Positioning Intelligence:** Funding Rate, Long/Short Positioning, Aggressor Flow, Cross-Exchange Correlation
+- **Risk Modeling:** Orderbook Liquidity Intelligence ($\pm 2\%$), Liquidation Risk Modeling, Temporal Derivatives Tracking
 
 **Detects:** `leverage buildup` · `crowded positioning` · `squeeze setups` · `cascade risk` · `manipulation conditions`
 
 </details>
+
 <details>
-<summary><b>🔐 18. ZK Intelligence Engine — 26 detectors, 55+ vulnerability classes</b></summary>
+<summary><b>🔐 18. ZK Intelligence Engine — 26 detectors, 55+ vulnerability classes, 4,982 On-Chain Verifiers</b></summary>
 
 Automated zero-knowledge verifier analysis. Source + bytecode.
 
-**Analysis:**
-- VK Soundness — gamma==delta, generator validation, zero checks
-- Curve Math — G1/G2 membership, 5 G2 conventions
-- Protocol Logic — nullifier reuse, root validation, reentrancy
-- Signal Binding — frontrun, recipient, fee, relayer substitution
-- IC/Pairing — poisoning, truncation, overflow
-- Backdoors — 8 patterns + emergency kill switch
-- Bytecode — PUSH32/PUSH16+SHL VK extraction without source
-- Proof Forgery — frozen heart, malleability, negation
-- External Verifier — mutable pointer detection
-- Setup Forensics — entropy analysis, generator reuse, ceremony detection
-
-**Intelligence:**
-- VK Fingerprint — SHA256 trusted setup identity
-- Circuit Sizing — constraint estimation from IC length
-- Clone Detection — automatic Tornado fork identification
-- Archetype Engine — `TORNADO_MIXER` · `SEMAPHORE_IDENTITY` · `MACI_VOTING` · `ZK_ROLLUP` · `AZTEC_PRIVACY`
-- Cluster Analysis — cross-project VK reuse detection
-
-**ZK Radar:**
-- Pairing precompile detection (0x08 STATICCALL) in bytecode
-- VK extraction without source code
-- Persistent fingerprint database
-- Cross-chain: ETH · BSC · Polygon · Arbitrum · Base · Optimism
-- Cluster discovery + threat mapping
-
-**Severity Calibration:**
-- Archetype-aware remapping (privacy vs frontrun, open relayer, proof malleability, mutable verifier)
-- CRITICAL / HIGH / INFO with design tradeoff tagging
-
-**Validated on:**
-Tornado Cash (ETH/BSC/Polygon/DAI) · FoomCash · Aztec Connect · Polygon zkEVM · zkSync Era
+- **Analysis:** VK Soundness ($\gamma==\delta$, generator validation, zero checks), Curve Math ($G_1/G_2$ membership on BN254, 5 $G_2$ conventions), Protocol Logic (nullifier reuse, root validation), Signal Binding, IC/Pairing poisoning/truncation/overflow, Bytecode VK extraction without source, Proof Forgery (Frozen Heart, malleability, negation), Setup Forensics.
+- **ZK Radar (`zk_radar_v4.db`):** persistent fingerprint database across **4,982 on-chain Groth16 verifiers** (ETH · BSC · Polygon · Arbitrum · Base · Optimism) with VK reuse cluster discovery and archetype classification (`TORNADO_MIXER` · `SEMAPHORE_IDENTITY` · `MACI_VOTING` · `ZK_ROLLUP` · `AZTEC_PRIVACY`).
 
 </details>
+
+<details>
+<summary><b>🗝️ 19. OSPEC Secret Intelligence & Matrix Sandbox v16.2</b></summary>
+
+- **OSPEC (Oracle SPECtrum):** continuous GitHub & config secret indexing across **31,837 repositories (`1,144,698` scanned findings)** with multi-stage cryptographic validation (`l2_validators_v2` + `kind_rules` L2.5 filtering), isolating **7,087 verified `REAL` secrets** and **550 `LIVE` on-chain/API keys** (`secp256k1`, `ed25519`, `BIP-39` checksums, `EIP-7702` delegations, `eth_keystore_v3`, Alchemy/Infura/RPC endpoints).
+- **Matrix Sandbox v16.2:** isolated child-process execution engine for untrusted Python/Web3 helpers and PoCs using kernel-level `sys.addaudithook` and `_BlockedImportFinder`, blocking secret file access and simulating network/process calls (`MockSocket`, `MockSession`, `MockPopen`) with strict `BLOCKED / SIMULATED / EXECUTED` telemetry.
+
+</details>
+
 ---
 
-## Continuous Radar — 24/7
+## Continuous Radar — 24/7 (`289,000+` Indexed Targets)
 
 <details>
-<summary><b>📡 GitHub Radar</b></summary>
+<summary><b>📡 GitHub Radar — 33,424+ Repositories [FREE]</b></summary>
 
-Real-time new repository monitoring.
-
-- Scores repos across 20+ signals
-- Detects: governance risk patterns, admin functions, flash-loan vectors, force-push activity
-- Auto-launches scanner on top findings
-- Background task queue with instant alerts (BLACKBOX tier)
-
-</details>
-<details>
-<summary><b>🔐 ZK Radar</b></summary>
-
-Automatic on-chain ZK verifier discovery.
-
-- Pairing precompile detection (0x08 STATICCALL)
-- Bytecode VK extraction without source
-- Persistent fingerprint database
-- Cross-chain: ETH · BSC · Polygon · Arbitrum · Base · Optimism
-- VK reuse cluster discovery
-- Network-wide verifier threat surface mapping
-
-</details>
-<details>
-<summary><b>📊 DeFiLlama Radar</b></summary>
-
-New protocol detection across DeFi ecosystem.
-
-- TVL filtering and category tagging
-- GitHub repository discovery
-- CoinGecko enrichment
-- Multi-source: DeFiLlama API + CoinGecko + protocol homepage
+- Real-time Web3 repository discovery scored across 20+ structural signals
+- Detects governance risk patterns, admin functions, flash-loan vectors, and force-push activity
+- Synchronized with the **10,826 pre-computed engineering dossiers** in `AUDITS_BASE`
 
 </details>
 
 <details>
-<summary><b>🔍 Verified Contract Radar</b></summary>
+<summary><b>📊 DeFiLlama Radar — 9,420+ Protocols [RADAR+]</b></summary>
 
-New verified on-chain contracts.
+- Continuous protocol discovery across the DeFi ecosystem with TVL filtering and category tagging
+- **1-Click Protocol Enricher:** instant resolution of protocol GitHub repositories, smart contracts, and social links
 
-- RPC + Etherscan V2 API
-- Chains: ETH · BSC · Polygon · Arbitrum · Base · Optimism
+</details>
+
+<details>
+<summary><b>🔍 Verified Contract Radar — 246,007+ Contracts [RADAR+]</b></summary>
+
+- Continuous indexing of newly verified contracts across ETH · Base · Polygon · BSC · Arbitrum · Optimism
 - Automatic junk / tutorial / student contract filtering
 
 </details>
 
 <details>
-<summary><b>🌐 Stellar / Soroban Radar</b></summary>
+<summary><b>🌐 Stellar / Soroban Radar — 641+ Targets [RADAR+]</b></summary>
 
-Specialized Stellar ecosystem monitoring.
+- Specialized Stellar asset and Soroban WASM contract monitoring via Horizon API
+- SDEX orderbook monitoring, scam factory detection, and issuer cluster analysis
 
-- New assets via Horizon API
-- SDEX orderbook monitoring
-- Scam factory detection
-- Issuer cluster analysis
+</details>
+
+<details>
+<summary><b>🔐 ZK Verifier Radar — 4,982+ On-Chain Verifiers [RAW+]</b></summary>
+
+- Pairing precompile detection (`0x08 STATICCALL`) and bytecode VK extraction without source code
+- Cross-chain VK reuse cluster discovery (`zk_radar_v4.db`)
 
 </details>
 
 ---
+
 # BORIS — Example Reports
 
-Real outputs from BORIS CLI. Protocol names redacted.
+Real outputs from BORIS. Protocol names redacted.  
 All data reflects actual scan results — nothing fabricated.
-
----
-
-## Example Reports
 
 | Module | Example | Key finding |
 |--------|---------|-------------|
@@ -557,52 +479,13 @@ All data reflects actual scan results — nothing fabricated.
 | 🐋 Holders | [Holder Distribution](examples/holders/sample-holders-analysis.md) | 59.45% single contract · governance capture threshold |
 | 🛰 Social | [Social Intelligence](examples/social/sample-social-intelligence.md) | 5 impersonators · 1.0% TG engagement |
 
----
-
-> All outputs are from BORIS beta 1.3.1 CLI.  
-> Telegram bot produces the same intelligence in structured report format.  
-> No fabricated data. No cherry-picked examples. Real scan, real protocol, names redacted.
-
-
-## On-Chain Intelligence Modules
-
-| Module | What it does |
-|--------|-------------|
-| **Funds Flow Analyzer** | Wash trading · bot patterns · drain detection · CEX vs owner extraction |
-| **Address Profiler** | Address classification · role context · cross-chain fingerprinting |
-| **Holders Analyzer** | Distribution · whale mapping · governance concentration · LP correction |
-
-**Supported chains:** EVM (ETH · BSC · Polygon · Arbitrum · Base · Optimism) · Solana · Tron · Stellar
-
----
-
-## Social Intelligence
-
-**Platforms:** Telegram · Twitter/X · Discord
-
-| Signal | Detection |
-|--------|-----------|
-| Subscriber count vs engagement | Dead community |
-| Post reaction / coverage ratio | Hollow engagement |
-| Content analysis | Scam / shill / signal / pump patterns |
-| Channel age vs project age | Astroturfing |
-| Account creation context | Coordinated launch |
-| Follower / following ratio | Bot army |
-| Server age + verification level | Discord trust baseline |
-
-- Impersonation detection (Levenshtein + pattern matching)
-- Cross-platform consistency scoring
-- Risk score (0–100) + Trust score (0–100)
-- Official vs ecosystem vs impersonator separation
-
-**Example output:**  
-`🚨 Impersonators: 5 detected`  
-`@ххххх_network_official_chats → @хххх_network_official_chat`  
-`📨 15 channels (2 official) · 92,749 subscribers · anomalous engagement`
+> All outputs are produced by the BORIS deterministic engine.  
+> Both the **[Web Terminal (`black-oracle.com`)](https://black-oracle.com)** and **[@BlackOracleBORIS_bot](https://t.me/BlackOracleBORIS_bot)** deliver full structured intelligence.
 
 ---
 
 ## Real Report — What BLACKBOX Produces
+```
 🔥 BLACKBOX REPORT
 Target: [Protocol] | Deploy: YES | Audits: 6 | Last: 549d ⚠️ STALE
 
@@ -651,83 +534,72 @@ STRUCTURAL PROFILE:
 🔴 Holder concentration:   75/100
 🟡 Code pattern density:   46/100
 🟡 Social trust:           48/100
-
+```
 
 ## Docs
 - [`CHANGELOG.md`](CHANGELOG.md) — version history
+
 ---
 
-## Tiers
+## Tiers (`black-oracle.com` & `@BlackOracleBORIS_bot`)
 
 |  | 👁️ GUEST | 🟥 RADAR | 📋 RAW | 🔥 BLACKBOX |
 |--|:--:|:--:|:--:|:--:|
-| **Price** | Free | $19/mo | $29/mo | $49/mo |
-| **Scans / day** | 3 | 25 | 30 | Unlimited |
+| **Price** | Free | $19/mo ($171/yr) | $29/mo ($261/yr) | $49/mo ($441/yr) |
+| **Scans / day** | 3 | 25 | 50 | Unlimited |
 | **Parallel scans** | 1 | 1 | 1 | 2 + queue 5 |
 | | | | | |
-| **Summary** | ✓ | ✓ | ✓ | ✓ |
+| **Summary & Surface Verdicts** | ✓ | ✓ | ✓ | ✓ |
 | **Risk categories + severity** | — | ✓ | ✓ | ✓ |
-| **Governance analysis** | — | ✓ | ✓ | ✓ |
-| **Admin control score** | — | ✓ | ✓ | ✓ |
-| **Behavioral score (aggregated)** | — | ✓ | ✓ | ✓ |
-| **Audit context (presence, age, coverage)** | — | ✓ | ✓ | ✓ |
+| **Governance & Admin control score** | — | ✓ | ✓ | ✓ |
+| **Behavioral score + Audit context** | — | ✓ | ✓ | ✓ |
+| **12 Web Intelligence Engines (OSPEC, 2.5k Exploits, Proxy, Drift, Surface, Flash)** | — | ✓ | ✓ | ✓ |
 | | | | | |
-| **Full findings + file:line** | — | — | ✓ | ✓ |
+| **Full findings + `file:line`** | — | — | ✓ | ✓ |
 | **Archetype + governance model** | — | — | ✓ | ✓ |
 | **Holders / liquidity / deployments** | — | — | ✓ | ✓ |
-| **CEX listings** | — | — | ✓ | ✓ |
+| **ZK Groth16 Verifier Auditor + Matrix Sandbox v16.2** | — | — | ✓ | ✓ |
 | **Raw technical dump — no verdicts** | — | — | ✓ | ✓ |
 | | | | | |
 | **Exploit paths + attack vectors** | — | — | — | ✓ |
-| **Audit drift (full)** | — | — | — | ✓ |
-| **Deploy trace analysis** | — | — | — | ✓ |
-| **Code fragments + exact location** | — | — | — | ✓ |
-| **Social intelligence** | — | — | — | ✓ |
-| **Funds Flow Intelligence** | — | — | — | ✓ |
-| **Address Profiler** | — | — | — | ✓ |
-| | | | | |
-| **Discovery feed access** | — | ✓ | ✓ | ✓ |
-| **Continuous Radar 24/7** | — | ✓ | ✓ | ✓ |
-| **DeFiLlama scanner 24/7** | — | ✓ | ✓ | ✓ |
-| **Alerts** | — | Batched 12–24h | Batched 12–24h | Instant |
+| **Audit drift (full) + Deploy trace** | — | — | — | ✓ |
+| **Code fragments + exact location + Unmasked OSPEC secrets** | — | — | — | ✓ |
+| **BORIS Neural Cortex (AI Dossier Interpreter)** | Teaser | Briefing *(Soon)* | Deep Technical *(Soon)* | Full AI Synthesis *(Soon)* |
+| **24/7 Live Radar Streams & 10.8k Audits Archive** | GitHub Radar | 5 Streams + Archive | All 6 Streams + ZK | All 6 Streams + Instant Alerts |
 | **JSON export** | — | Summary | Full technical | Full |
-| **Beta access** | — | — | — | First |
 
 > 👁️ **GUEST** — entry map. See the surface.  
-> 🟥 **RADAR** — pressure map. Understand the risk structure.  
-> 📋 **RAW** — data map. No scores, no verdicts. Pure technical dump for people who read code, not conclusions.  
-> 🔥 **BLACKBOX** — consequence map. Exploit paths, drift, full intelligence stack.
+> 🟥 **RADAR** — pressure map. Understand the risk structure + 12 intelligence engines.  
+> 📋 **RAW** — data map. Pure technical dump, ZK Groth16 math, and Matrix Sandbox v16.2.  
+> 🔥 **BLACKBOX** — consequence map. Exploit paths, drift, unredacted intelligence stack.
 
 ---
 
 ## Quick Start
-Open @BlackOracleBORIS_bot on Telegram
-/start
-Drop a contract address, GitHub repo URL, or token ticker
-Receive your report
 
+1. **Web Terminal:** Open **[https://black-oracle.com](https://black-oracle.com)** — run an instant scan on the homepage or sign in to `/dashboard` to access all 14 intelligence tools, 6 live radar streams, and 10,826 archived dossiers.
+2. **Telegram Bot:** Open **[@BlackOracleBORIS_bot](https://t.me/BlackOracleBORIS_bot)** — drop a contract address, GitHub repo URL, or token ticker, and sync your Telegram history with the Web Terminal in 1 click.
 
 **Accepted inputs:**
 - `owner/repo` or `https://github.com/...` — GitHub repository
 - `0x...` — EVM contract address
-- Explorer URLs (Etherscan, BscScan, Arbiscan, etc.)
+- `C...` or `CODE:ISSUER` — Soroban contract / Stellar asset
+- Explorer URLs (Etherscan, BscScan, Arbiscan, BaseScan, PolygonScan, etc.)
 - `TOKEN` — ticker (market + derivatives scan)
 
-No setup. No API keys. No CLI.
+No setup. No external API keys required.
 
 ---
 
 ## Philosophy
-BORIS does not judge projects.
+BORIS does not judge projects.  
 BORIS maps control and capital mobility.
 
-BORIS does not rate safety.
+BORIS does not rate safety.  
 BORIS measures exposure.
 
-BORIS does not predict collapse.
+BORIS does not predict collapse.  
 BORIS identifies structural pressure points.
-
-
 
 FUD makes claims.  
 BORIS makes observations.
@@ -737,15 +609,14 @@ That is a structural fact.
 
 ---
 
-
 ## Links
 
 | | |
 |---|---|
-| 🤖 Bot | [@BlackOracleBORIS_bot](https://t.me/BlackOracleBORIS_bot) |
-| 📡 Channel EN | [t.me/Black_Oracle_BORIS_eng](https://t.me/Black_Oracle_BORIS_eng) |
-| 📡 Channel RU | [t.me/Black_Oracle_BORIS_ru](https://t.me/Black_Oracle_BORIS_ru) |
-| 🐦 Twitter/X | [@BlackOracleRoot](https://x.com/BlackOracleRoot) |
+| 🌐 **Web Terminal** | [https://black-oracle.com](https://black-oracle.com) |
+| 🤖 **Telegram Bot** | [@BlackOracleBORIS_bot](https://t.me/BlackOracleBORIS_bot) |
+| 💬 **Support / Architect** | [@V_swarm](https://t.me/V_swarm) |
+| 🐦 **Twitter/X** | [@BlackOracleRoot](https://x.com/BlackOracleRoot) |
 
 ---
 

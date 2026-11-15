@@ -1,5 +1,38 @@
 # BORIS — Changelog
+
+![Version](https://img.shields.io/badge/version-Beta_v1.4-e11d48)
+![Modules](https://img.shields.io/badge/modules-335%2B-blue)
 ![Detectors](https://img.shields.io/badge/ZK_detectors-26-red)
+
+## beta 1.4 — 2026-11
+
+### Added
+- **Full Web SaaS Terminal (`https://black-oracle.com`)** synchronized with `@BlackOracleBORIS_bot`:
+  - **14 Interactive Intelligence Engines** in Operator Cabinet (`/dashboard`):
+    1. Holders & Whales Analyzer
+    2. Market & Derivatives Terminal (`/market`)
+    3. 14-Day Funds Flow Graph Analyzer
+    4. Social & OSINT Cross-Scanner
+    5. Soroban / Stellar SIM Inspector
+    6. **OSPEC Secret & Config Intelligence** (`1,144,698` findings across `31,837` repos, L2.5-filtered to `7,087` verified `REAL` secrets and `550` `LIVE` keys with repository drill-down)
+    7. **2,539 Historical Exploits & Foundry PoC Corpus** (`1,678` full technical writeups with Foundry tests + `861` DeFiHackLabs incidents)
+    8. **Deployer & Address Profiler** (`AddressIntelligence` + batch `DeployAnalyzer` creator wallet forensics)
+    9. **Proxy & EIP-1967 Storage Slot Inspector** (`implementation`, `admin`, `beacon`, legacy OZ slots + uninitialized `initialize()` probe)
+    10. **Flash-Loan & Spot-Oracle Detector** (`slot0`/`getReserves` vs TWAP/Chainlink + bridge bytecode signatures)
+    11. **Web3 Surface Mapper** (18-subdomain parallel recon + JS bundle contract/RPC/sourcemap extraction)
+    12. **Post-Audit Git Drift Analyzer** (automated PDF audit parsing + Git commit delta since last audit)
+    13. **ZK Groth16 Verifier Auditor** (BN254 curve/subgroup check + lookup against `4,982` on-chain verifiers)
+    14. **Matrix Sandbox v16.2** (`sys.addaudithook` kernel-level isolated execution with `BLOCKED / SIMULATED / EXECUTED` telemetry)
+  - **6 Live 24/7 Radar Streams** with server-side pagination (`289,000+` indexed targets + `10,826` pre-computed dossiers in `AUDITS_BASE` + 1-click DeFiLlama Enricher).
+  - **Sovereign Multi-Chain Checkout (`hd_treasury.py`):** BIP-44 HD wallet invoicing across 7 networks (`Arbitrum`, `Base`, `BSC`, `Polygon`, `Ethereum`, `TRON`, `Solana`) + `@CryptoBot` + 1-click Telegram account/history sync (`websync_`).
+- **BORIS Neural Cortex (`Powered by AI — Rolling Out`):**
+  - Two-stage neuro-symbolic architecture: deterministic 19-layer engine produces a verified JSON dossier first, followed by AI interpretation grounded in 10,826 archived audits and 2,539 exploit precedents (0% raw-code hallucination).
+- **OSPEC L2.5 Verification & Context Gating Upgrade:**
+  - `l2_validators_v2`, `l2_coverage`, `kind_rules`, and `secret_signatures` expanded with 63 automated self-tests (`test_ospec.py`).
+  - `api_key_pool.py` upgraded to rotate 100+ RPC/API keys (`49` Alchemy, `35` Infura, `6` Etherscan V2, `3` GitHub PAT, `3` Ankr, `2` Helius, `2` CoinGecko).
+
+---
+
 ## patch 1.3.2 — 2026-03
 
 ### Added
@@ -15,7 +48,10 @@
   - ZK Radar — cross-chain verifier discovery + cluster analysis
   - Severity calibration — archetype-aware design tradeoff remapping
   - Validated: Tornado Cash (ETH/BSC/Polygon/DAI), FoomCash, Aztec Connect, Polygon zkEVM, zkSync Era
-## patch 1.3.1 — 2025-03
+
+---
+
+## patch 1.3.1 — 2026-03
 
 ### Added
 - Vyper language support — full static analysis + Invariant Correlation Engine integration (11 languages total)
@@ -32,6 +68,9 @@
 ### Fixed
 - Deployment pipeline issues
 - Minor text corrections across reports
+
+---
+
 ## beta 1.3 — 2026-03-02
 
 ### Added
@@ -114,25 +153,3 @@
 - GitHub Radar (initial version)
 - Telegram bot with 4 tiers (GUEST · RADAR · RAW · BLACKBOX)
 - CryptoBot payment integration
-Последнее — обновить README секцию Docs
-Найди старую секцию Docs и замени:
-
-markdown
-
-## Docs
-
-- [`docs/architecture.md`](docs/architecture.md) — system architecture + data flow
-- [`docs/signals.md`](docs/signals.md) — complete signal reference with weights
-- [`docs/tiers.md`](docs/tiers.md) — tier breakdown and examples
-- [`CHANGELOG.md`](CHANGELOG.md) — version history
-
-## Example Reports
-
-| Module | Example | Key finding |
-|--------|---------|-------------|
-| 🔥 BLACKBOX | [Governance Protocol](examples/full-report/sample-governance-protocol.md) | Flash-loan governance · 48 findings outside audit scope |
-| 🌐 Soroban Radar | [Stellar Scam Scan](examples/soroban-radar/stellar-scam-scan.md) | 52 scams · $0 oracle cost · 2 factory networks |
-| 💰 Funds Flow | [Pool Analysis](examples/funds-flow/sample-pool-analysis.md) | Wash trading 85/100 · 13 signals |
-| 📊 Market Engine | [Market Scan](examples/market-scan/sample-market-engine.md) | OI/Depth 26x squeeze · GitHub 444d abandoned |
-| 🐋 Holders | [Holder Distribution](examples/holders/sample-holders-analysis.md) | 59.45% single contract · governance capture threshold |
-| 🛰 Social | [Social Intelligence](examples/social/sample-social-intelligence.md) | 5 impersonators · 1.0% TG engagement |
