@@ -23,10 +23,10 @@
     12. **Post-Audit Git Drift Analyzer** (automated PDF audit parsing + Git commit delta since last audit)
     13. **ZK Groth16 Verifier Auditor** (BN254 curve/subgroup check + lookup against `4,982` on-chain verifiers)
     14. **Matrix Sandbox v16.2** (`sys.addaudithook` kernel-level isolated execution with `BLOCKED / SIMULATED / EXECUTED` telemetry)
-  - **6 Live 24/7 Radar Streams** with server-side pagination (`289,000+` indexed targets + `10,826` pre-computed dossiers in `AUDITS_BASE` + 1-click DeFiLlama Enricher).
+  - **6 Live 24/7 Radar Streams** with server-side pagination (`289,000+` indexed targets + `20,826` pre-computed dossiers in `AUDITS_BASE` + 1-click DeFiLlama Enricher).
   - **Sovereign Multi-Chain Checkout (`hd_treasury.py`):** BIP-44 HD wallet invoicing across 7 networks (`Arbitrum`, `Base`, `BSC`, `Polygon`, `Ethereum`, `TRON`, `Solana`) + `@CryptoBot` + 1-click Telegram account/history sync (`websync_`).
-- **BORIS Neural Cortex (`Powered by AI — Rolling Out`):**
-  - Two-stage neuro-symbolic architecture: deterministic 19-layer engine produces a verified JSON dossier first, followed by AI interpretation grounded in 10,826 archived audits and 2,539 exploit precedents (0% raw-code hallucination).
+- **Roadmap v1.5 Preview — BORIS Neural Cortex & Agent Swarm (`SOON · RAW+ Tiers`):**
+  - Two-stage neuro-symbolic architecture: deterministic 19-layer engine produces a verified JSON dossier first (available on all tiers), followed by AI interpretation grounded in 20,826 archived audits and 2,539 exploit precedents + personal Agent Swarm orchestration for `RAW` and `BLACKBOX` tiers (0% raw-code hallucination).
 - **OSPEC L2.5 Verification & Context Gating Upgrade:**
   - `l2_validators_v2`, `l2_coverage`, `kind_rules`, and `secret_signatures` expanded with 63 automated self-tests (`test_ospec.py`).
   - `api_key_pool.py` upgraded to rotate 100+ RPC/API keys (`49` Alchemy, `35` Infura, `6` Etherscan V2, `3` GitHub PAT, `3` Ankr, `2` Helius, `2` CoinGecko).

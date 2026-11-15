@@ -14,11 +14,10 @@
 [![Twitter](https://img.shields.io/badge/Twitter-@BlackOracleRoot-000000?style=flat&logo=x)](https://x.com/BlackOracleRoot)
 
 ![Status](https://img.shields.io/badge/status-live_v1.4-brightgreen)
-![AI Cortex](https://img.shields.io/badge/Powered_by_AI-BORIS_Neural_Cortex-e11d48)
-![Files](https://img.shields.io/badge/codebase-335%2B%20modules%20%7C%20130k%2B%20lines-blue)
-![Layers](https://img.shields.io/badge/architecture-19%20layers%20%7C%2014%20engines-blue)
+![AI Cortex](https://img.shields.io/badge/Roadmap_v1.5-AI_Cortex_%26_Swarm_%5BSOON%5D-e11d48)
+![Layers](https://img.shields.io/badge/architecture-19%20layers%20%7C%2014%20engines%20%7C%206%20radars-blue)
 ![Languages](https://img.shields.io/badge/languages-12-orange)
-![Intelligence](https://img.shields.io/badge/corpus-289k%2B%20targets%20%7C%2010.8k%20audits%20%7C%202.5k%20exploits-red)
+![Intelligence](https://img.shields.io/badge/corpus-289k%2B%20targets%20%7C%2020.8k%20audits%20%7C%202.5k%20exploits-red)
 ![Chains](https://img.shields.io/badge/chains-EVM%20%7C%20Solana%20%7C%20Tron%20%7C%20Stellar%2FSoroban%20%7C%20TON%20%7C%20Move-orange)
 
 </div>
@@ -32,15 +31,15 @@
 
 ---
 
-## ⚡ What's New in BORIS Beta v 1.4
+## ⚡ What's New in BORIS Beta v 1.4 (& Roadmap v 1.5)
 
-### 1. 🧠 Powered by AI — BORIS Neural Cortex (Zero-Hallucination Dossier Interpreter)
+### 1. 🧠 Powered by AI — BORIS Neural Cortex & Agent Swarm (`SOON in v1.5 · RAW+ Tiers`)
 First-generation "AI security scanners" failed because they fed raw `.sol` files directly into an LLM and asked it to guess vulnerabilities — producing hallucinations, missed storage collisions, and fabricated findings.
 
 **BORIS is built on the opposite principle: Deterministic Execution First, Neural Interpretation Second.**
-1. **The Mechanical Hammer (`130,000+` LOC Deterministic Core):** `335+` specialized Python modules inspect the protocol across **19 layers** — multi-language ASTs, live `eth_getStorageAt` EIP-1967 proxy slots, BN254 elliptic-curve math for ZK Groth16 verifiers, post-audit Git commit drift, whale concentration, 14-day funds flow, and CEX/DEX derivatives microstructure — emitting a **strict, verified JSON evidence dossier**.
-2. **Grounded Institutional Memory:** Every scan is cross-referenced against BORIS's local databases: **10,826 completed engineering audits (`AUDITS_BASE`)**, **2,539 historical exploit post-mortems & Foundry PoCs**, and **289,000+ indexed radar targets**.
-3. **BORIS Neural Cortex (`Powered by AI`):** The AI Interpreter never guesses raw code or browses the web. It ingests BORIS's verified JSON dossier + matched historical precedents and translates complex multi-layer telemetry into a clear, actionable human executive briefing for auditors, founders, and risk desks.
+1. **The Mechanical Hammer (19 Deterministic Layers — `LIVE in v1.4`):** Specialized static, on-chain, and mathematical engines inspect the protocol across **19 layers** — multi-language ASTs, live `eth_getStorageAt` EIP-1967 proxy slots, BN254 elliptic-curve math for ZK Groth16 verifiers, post-audit Git commit drift, whale concentration, 14-day funds flow, and CEX/DEX derivatives microstructure — emitting a **strict, verified JSON evidence dossier** (available across all tiers).
+2. **Grounded Institutional Memory (`LIVE in v1.4`):** Every scan is cross-referenced against BORIS's local databases: **20,826 completed engineering audits**, **2,539 historical exploit post-mortems & Foundry PoCs**, and **289,000+ indexed radar targets**.
+3. **BORIS Neural Cortex & Autonomous Swarm (`SOON in v1.5 · from RAW+ tier`):** While `GUEST` and `RADAR` tiers receive the deterministic report, `RAW` and `BLACKBOX` operators unlock the AI Dossier Interpreter (which translates verified JSON telemetry + matched historical precedents into human intelligence with 0% raw-code hallucination) and personal **Agent Swarm Control** to dispatch autonomous inspection swarms across custom targets.
 
 ### 2. 🌐 Full Web SaaS Terminal — [black-oracle.com](https://black-oracle.com)
 Alongside the Telegram terminal, BORIS v1.4 launches a full browser-based intelligence workstation:
@@ -59,7 +58,7 @@ Alongside the Telegram terminal, BORIS v1.4 launches a full browser-based intell
   12. **Post-Audit Git Drift** (automatic PDF audit parsing in `audits/` + Git commit drift since last audit date)
   13. **ZK Groth16 Verifier Auditor** (BN254 curve/subgroup soundness, $\gamma == \delta$, Frozen Heart, and fingerprint matching against `4,982` on-chain verifiers)
   14. **Matrix Sandbox v16.2** (kernel-level `sys.addaudithook` + `_BlockedImportFinder` isolated Python/Web3 execution with `BLOCKED / SIMULATED / EXECUTED` telemetry)
-- **6 Live 24/7 Radar Streams** with server-side pagination: `GitHub Radar (33,424 repos)`, `DeFiLlama Radar (9,420 protocols + 1-click Enricher)`, `Verified Contracts (246,007 across 5 EVM chains)`, `Soroban Radar (641 targets)`, `ZK Verifier Radar (4,982 verifiers)`, and `Archive Dossiers (10,826 instant reports)`.
+- **6 Live 24/7 Radar Streams** with server-side pagination: `GitHub Radar (33,424 repos)`, `DeFiLlama Radar (9,420 protocols + 1-click Enricher)`, `Verified Contracts (246,007 across 5 EVM chains)`, `Soroban Radar (641 targets)`, `ZK Verifier Radar (4,982 verifiers)`, and `Archive Dossiers (20,826 instant reports)`.
 - **Unified Web ↔ Telegram Sync & Sovereign Billing:** 1-click `tg://resolve` account/history synchronization and zero-middleman **BIP-44 HD multi-chain checkout** across 7 networks (`Arbitrum`, `Base`, `BSC`, `Polygon`, `Ethereum`, `TRON`, `Solana`) + `@CryptoBot`.
 
 ---
@@ -101,8 +100,8 @@ That's where the real signal is.
 <td align="center">🔐<br/><b>ZK & SANDBOX</b><br/><sub>Groth16 BN254<br/>Matrix v16.2</sub></td>
 <td align="center">⚠️<br/><b>MARKET</b><br/><sub>Spot · OI<br/>Derivatives</sub></td>
 <td align="center">🛰<br/><b>OSINT & OSPEC</b><br/><sub>Social · Surface<br/>1.14M Secrets</sub></td>
-<td align="center">📡<br/><b>RADAR 24/7</b><br/><sub>289k+ Targets<br/>10.8k Audits</sub></td>
-<td align="center">🧠<br/><b>AI CORTEX</b><br/><sub>JSON + 2.5k PoCs<br/>Interpreter</sub></td>
+<td align="center">📡<br/><b>RADAR 24/7</b><br/><sub>289k+ Targets<br/>20.8k Audits</sub></td>
+<td align="center">🧠<br/><b>AI & SWARM</b><br/><sub>v1.5 (RAW+)<br/>Interpreter</sub></td>
 </tr>
 <tr>
 <td colspan="7" align="center">
@@ -427,7 +426,7 @@ Automated zero-knowledge verifier analysis. Source + bytecode.
 
 - Real-time Web3 repository discovery scored across 20+ structural signals
 - Detects governance risk patterns, admin functions, flash-loan vectors, and force-push activity
-- Synchronized with the **10,826 pre-computed engineering dossiers** in `AUDITS_BASE`
+- Synchronized with the **20,826 pre-computed engineering dossiers** in `AUDITS_BASE`
 
 </details>
 
@@ -564,8 +563,8 @@ STRUCTURAL PROFILE:
 | **Exploit paths + attack vectors** | — | — | — | ✓ |
 | **Audit drift (full) + Deploy trace** | — | — | — | ✓ |
 | **Code fragments + exact location + Unmasked OSPEC secrets** | — | — | — | ✓ |
-| **BORIS Neural Cortex (AI Dossier Interpreter)** | Teaser | Briefing *(Soon)* | Deep Technical *(Soon)* | Full AI Synthesis *(Soon)* |
-| **24/7 Live Radar Streams & 10.8k Audits Archive** | GitHub Radar | 5 Streams + Archive | All 6 Streams + ZK | All 6 Streams + Instant Alerts |
+| **BORIS Neural Cortex & Swarm (v1.5)** | Deterministic Report | Deterministic Report | AI Dossier Interpreter *(Soon)* | Full AI Synthesis + Agent Swarm *(Soon)* |
+| **24/7 Live Radar Streams & 20.8k Audits Archive** | GitHub Radar | 5 Streams + Archive | All 6 Streams + ZK | All 6 Streams + Instant Alerts |
 | **JSON export** | — | Summary | Full technical | Full |
 
 > 👁️ **GUEST** — entry map. See the surface.  
@@ -577,7 +576,7 @@ STRUCTURAL PROFILE:
 
 ## Quick Start
 
-1. **Web Terminal:** Open **[https://black-oracle.com](https://black-oracle.com)** — run an instant scan on the homepage or sign in to `/dashboard` to access all 14 intelligence tools, 6 live radar streams, and 10,826 archived dossiers.
+1. **Web Terminal:** Open **[https://black-oracle.com](https://black-oracle.com)** — run an instant scan on the homepage or sign in to `/dashboard` to access all 14 intelligence tools, 6 live radar streams, and 20,826 archived dossiers.
 2. **Telegram Bot:** Open **[@BlackOracleBORIS_bot](https://t.me/BlackOracleBORIS_bot)** — drop a contract address, GitHub repo URL, or token ticker, and sync your Telegram history with the Web Terminal in 1 click.
 
 **Accepted inputs:**
