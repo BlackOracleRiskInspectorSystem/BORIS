@@ -1,8 +1,16 @@
 # BORIS — Changelog
 
-![Version](https://img.shields.io/badge/version-Beta_v1.4-e11d48)
+![Version](https://img.shields.io/badge/version-Beta_v1.41-e11d48)
 ![Modules](https://img.shields.io/badge/modules-335%2B-blue)
 ![Detectors](https://img.shields.io/badge/ZK_detectors-26-red)
+
+## beta 1.41 — 2026-11
+
+### Analysis Precision & On-Chain Calibration
+- **Contract & On-Chain Engine Refinements:** Improved static and on-chain analysis accuracy across multi-file and proxy deployments, refined context-aware false-positive filtering, and strengthened exploit-pattern correlation.
+- **Archetype & Report Consistency:** Improved protocol archetype classification for on-chain contracts and standardized deterministic ordering across audit comparisons and deployment surface reports.
+
+---
 
 ## beta 1.4 — 2026-11
 
