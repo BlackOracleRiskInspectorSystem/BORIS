@@ -1,8 +1,17 @@
 # BORIS — Changelog
 
-![Version](https://img.shields.io/badge/version-Beta_v1.41-e11d48)
+![Version](https://img.shields.io/badge/version-Beta_v1.42-e11d48)
 ![Modules](https://img.shields.io/badge/modules-335%2B-blue)
 ![Detectors](https://img.shields.io/badge/ZK_detectors-26-red)
+
+## beta 1.42 — 2026-11
+
+### Radar Coverage, Analytics Visuals & Terminal UX
+- **Expanded Radar Discovery & Filtering:** Broadened repository discovery coverage across technology, AI, startup, and infrastructure categories, and added category, language, score, and sorting filters to the radar feed.
+- **Enhanced Module Visualizations:** Improved visual charts and breakdowns in Holders, Market & Derivatives (including trending overview), and Funds Flow modules.
+- **Terminal Navigation & Input Validation:** Improved dossier drawer positioning for faster inspection and strengthened input validation across interactive scanner tools.
+
+---
 
 ## beta 1.41 — 2026-11
 
