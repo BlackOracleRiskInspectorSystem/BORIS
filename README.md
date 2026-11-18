@@ -2,7 +2,7 @@
 
 <img src="boris_logo.png" alt="BORIS" width="320"/>
 
-# BORIS Beta v 1.42
+# BORIS Beta v 1.43
 ### Black Oracle Risk Inspection System
 **Deterministic 20-Layer Threat Surface Intelligence + AI Dossier Interpreter for Web3 Protocols.**
 
@@ -13,7 +13,7 @@
 [![Support](https://img.shields.io/badge/Support-@V__swarm-2CA5E0?style=flat&logo=telegram)](https://t.me/V_swarm)
 [![Twitter](https://img.shields.io/badge/Twitter-@BlackOracleRoot-000000?style=flat&logo=x)](https://x.com/BlackOracleRoot)
 
-![Status](https://img.shields.io/badge/status-live_v1.42-brightgreen)
+![Status](https://img.shields.io/badge/status-live_v1.43-brightgreen)
 ![AI Cortex](https://img.shields.io/badge/Roadmap_v1.5-AI_Cortex_%26_Swarm_%5BSOON%5D-e11d48)
 ![Layers](https://img.shields.io/badge/architecture-20%20layers%20%7C%2014%20engines%20%7C%206%20radars-blue)
 ![OSPEC](https://img.shields.io/badge/OSPEC-1.14M%20findings%20%7C%207%2C087%20REAL-orange)
@@ -25,25 +25,25 @@
 
 ---
 
-> ### ⚠️ Active Development — Beta v 1.42
+> ### ⚠️ Active Development — Beta v 1.43
 > BORIS is a live, continuously evolving sovereign intelligence system (**[black-oracle.com](https://black-oracle.com)** + **[@BlackOracleBORIS_bot](https://t.me/BlackOracleBORIS_bot)**).
-> Documentation reflects the production v1.42 architecture.
+> Documentation reflects the production v1.43 architecture.
 > **If something is missing — it's being built. If something is wrong — it's being fixed.**
 
 ---
 
-## ⚡ What's New in BORIS Beta v 1.42 (& Roadmap v 1.5)
+## ⚡ What's New in BORIS Beta v 1.43 (& Roadmap v 1.5)
 
 ### 1. 🧠 Powered by AI — BORIS Neural Cortex & Agent Swarm (`SOON in v1.5 · RAW+ Tiers`)
 First-generation "AI security scanners" failed because they fed raw `.sol` files directly into an LLM and asked it to guess vulnerabilities — producing hallucinations, missed storage collisions, and fabricated findings.
 
 **BORIS is built on the opposite principle: Deterministic Execution First, Neural Interpretation Second.**
-1. **The Mechanical Hammer (20 Deterministic Layers — `LIVE in v1.42`):** Specialized static, on-chain, cryptographic, and secret-harvesting engines inspect the protocol across **20 layers** — multi-language ASTs, live `eth_getStorageAt` EIP-1967 proxy slots, BN254 elliptic-curve math for ZK Groth16 verifiers, **OSPEC secret & key leak intelligence**, post-audit Git commit drift, whale concentration, 14-day funds flow, and CEX/DEX derivatives microstructure — emitting a **strict, verified JSON evidence dossier** (available across all tiers).
-2. **Grounded Institutional Memory (`LIVE in v1.42`):** Every scan is cross-referenced against BORIS's local databases: **20,826 completed engineering audits**, **2,539 historical exploit post-mortems & Foundry PoCs**, and **289,000+ indexed radar targets**.
+1. **The Mechanical Hammer (20 Deterministic Layers — `LIVE in v1.43`):** Specialized static, on-chain, cryptographic, and secret-harvesting engines inspect the protocol across **20 layers** — multi-language ASTs, live `eth_getStorageAt` EIP-1967 proxy slots, BN254 elliptic-curve math for ZK Groth16 verifiers, **OSPEC secret & key leak intelligence**, post-audit Git commit drift, whale concentration, 14-day funds flow, and CEX/DEX derivatives microstructure — emitting a **strict, verified JSON evidence dossier** (available across all tiers).
+2. **Grounded Institutional Memory (`LIVE in v1.43`):** Every scan is cross-referenced against BORIS's local databases: **20,826 completed engineering audits**, **2,539 historical exploit post-mortems & Foundry PoCs**, and **289,000+ indexed radar targets**.
 3. **BORIS Neural Cortex & Autonomous Swarm (`SOON in v1.5 · from RAW+ tier`):** While `GUEST` and `RADAR` tiers receive the deterministic report, `RAW` and `BLACKBOX` operators unlock the AI Dossier Interpreter (which translates verified JSON telemetry + matched historical precedents into human intelligence with 0% raw-code hallucination) and personal **Agent Swarm Control** to dispatch autonomous inspection swarms across custom targets.
 
 ### 2. 🌐 Full Web SaaS Terminal — [black-oracle.com](https://black-oracle.com)
-Alongside the Telegram terminal, BORIS v1.42 launches a full browser-based intelligence workstation:
+Alongside the Telegram terminal, BORIS v1.43 launches a full browser-based intelligence workstation:
 - **14 Interactive Intelligence Engines** in the Operator Cabinet (`/dashboard`):
   1. **Holders & Whales** (Top-10 concentration, CEX/LP/bridge normalization)
   2. **Market & Derivatives** (`/market` — Open Interest, Funding, Long/Short, $\pm 2\%$ orderbook depth, manipulation & squeeze scoring)

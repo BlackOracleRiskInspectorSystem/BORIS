@@ -1,8 +1,18 @@
 # BORIS — Changelog
 
-![Version](https://img.shields.io/badge/version-Beta_v1.42-e11d48)
+![Version](https://img.shields.io/badge/version-Beta_v1.43-e11d48)
 ![Modules](https://img.shields.io/badge/modules-335%2B-blue)
 ![Detectors](https://img.shields.io/badge/ZK_detectors-26-red)
+
+## beta 1.43 — 2026-11
+
+### Multi-Language Engine Upgrade, Signal Calibration & OSPEC Enhancements
+- **Strengthened Multi-Language Coverage (12 Stacks):** Expanded detection depth and calibrated rule precision across all 12 supported language backends (`Solidity`, `Vyper`, `Rust`, `Move`, `TON` FunC/Tact, `Go`, `Java`, `TypeScript`, `Python`, `C/C++`, `Elixir`, and `Shell`), covering ecosystem-specific smart contract, consensus, and application-layer patterns.
+- **On-Chain & Protocol Archetype Refinements:** Improved on-chain source retrieval and compiler routing for non-Solidity EVM contracts, refined protocol archetype classification, and expanded correlation with the historical exploit corpus.
+- **False-Positive Suppression & Engine Debugging:** Audited and debugged pattern matchers across all language analyzers, eliminating structural noise on standard SDKs, generated wrappers, and build artifacts while increasing sensitivity to high-impact vulnerabilities.
+- **OSPEC Multi-Chain Verification & Stability:** Integrated extended multi-chain key derivation and live verification workflows across the Web Terminal, Telegram Bot, and CLI, alongside improved context gating against synthetic dataset noise and enhanced background daemon resilience.
+
+---
 
 ## beta 1.42 — 2026-11
 
