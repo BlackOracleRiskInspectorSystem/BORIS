@@ -1,8 +1,24 @@
 # BORIS — Changelog
 
-![Version](https://img.shields.io/badge/version-Beta_v1.43-e11d48)
+![Version](https://img.shields.io/badge/version-Beta_v1.44-e11d48)
 ![Modules](https://img.shields.io/badge/modules-335%2B-blue)
 ![Detectors](https://img.shields.io/badge/ZK_detectors-26-red)
+
+## beta 1.44 — 2026-11
+
+### Cross-Chain Bridge Radar, Bug Fixes & Stability Improvements
+- **Cross-Chain Bridge Radar & Multi-Chain Vault Intelligence (15th Engine):**
+  - Integrated dedicated cross-chain bridge and validator telemetry covering 5,731+ contracts across 18+ networks (`Ethereum`, `BSC`, `Base`, `Polygon`, `Arbitrum`, `Optimism`, `Avalanche`, `Linea`, `Scroll`, `ZkSync`, `Mantle`, `Blast`, and non-EVM ecosystems).
+  - Deployed on-chain money verification powered by Ankr Multichain API and native RPC pools, tracking $65.3B+ in global locked bridge assets.
+  - Implemented bytecode-level signature detection for high-impact cross-chain failure modes: Emergency Drain (`withdraw`/`emergencyWithdraw`), Arbitrary External Call (`execute`/`delegatecall`), EIP-1967/Beacon Proxy upgradeability, Message Replay (`processMessage`/`handle`), and BLS epoch registration vectors.
+  - Integrated historical cross-chain exploit corpus with 110 specialized bridge post-mortems and verified Foundry PoCs (`Ronin`, `PolyNetwork`, `BNB TokenHub`, `Wormhole`, `Nomad`, `Orbit Chain`, `Qubit QBridge`, `Allbridge CCTP`, `LI.FI`, `LayerZero OFT`).
+- **Engine Stability & Bug Fixes:**
+  - Resolved runtime parameter binding discrepancies across analyzer rules, ensuring deterministic pass-through for all scanner workers.
+  - Hardened Telegram bot daemon command dispatch and exception handling, restoring clean recovery workflows across all interactive commands (`/bridge`, `/bridges`, `/ospec`, `/find`).
+  - Calibrated false-positive suppression in sequential pattern classifiers to preserve valid mixed-case access tokens while filtering synthetic dataset noise.
+  - Strengthened system watchdog with fast 2-minute end-to-end canary verification across all core intelligence modules.
+
+---
 
 ## beta 1.43 — 2026-11
 
